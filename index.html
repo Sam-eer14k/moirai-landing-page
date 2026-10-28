@@ -1,0 +1,1721 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MoirAI Cloud | Synaptix™, the AI Infrastructure Operating Platform</title>
+<meta name="description" content="Synaptix™ by MoirAI Cloud brings compute, networking, storage and monitoring into one console, with integrated AI that helps operators investigate issues and decide what to do next.">
+<meta name="theme-color" content="#05173f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MoirAI Cloud">
+<meta property="og:title" content="MoirAI Cloud | AI infrastructure operations with Synaptix™">
+<meta property="og:description" content="One console for compute, networking, storage and monitoring, with integrated AI and operator control.">
+<meta property="og:image" content="assets/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MoirAICloud">
+<link rel="icon" href="assets/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" as="image" href="assets/images/hero-poster.webp" type="image/webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"MoirAI Cloud","url":"https://moiraicloud.ai/","email":"support@moiraicloud.ai","founder":[{"@type":"Person","name":"Robert Twitchell","jobTitle":"Founder & CEO"},{"@type":"Person","name":"Daniel Twitchell","jobTitle":"Founder & CRO"}],"sameAs":["https://x.com/MoirAICloud","https://www.instagram.com/moirai.cloud/","https://www.linkedin.com/company/moirai-cloud/about/"]}</script>
+<style>:root{--blue:#004aae;--electric:#2080c0;--cyan:#52d0e2;--navy:#06142f;--navy-2:#0b1f45;--navy-3:#12305f;--white:#ffffff;--paper:#f3f7fc;--paper-2:#e6eef8;--ink:#0a1630;--body:#46526a;--muted:#5e6a80;--line:rgba(6,20,47,0.12);--line-d:rgba(255,255,255,0.12);--on-dark:rgba(255,255,255,0.8);--on-dark-2:rgba(255,255,255,0.62);--amber:#f2a71b;--amber-ink:#8a5300;--live-ink:#0b6a7a;--bad:#c62828;--ok:#11693f;--f-d:"Bricolage Grotesque",Georgia,serif;--f-b:"Instrument Sans",system-ui,sans-serif;--f-m:"JetBrains Mono",ui-monospace,monospace;--r-sm:4px;--r:8px;--r-lg:10px;--sec:120px;--hd:84px;--ease:cubic-bezier(0.22,1,0.36,1);--glow:0 0 0 1px var(--electric),0 22px 44px -22px rgba(0,74,174,0.45)}*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px;-webkit-text-size-adjust:100%}body{margin:0;font:400 16px/1.65 var(--f-b);color:var(--body);background:var(--paper);overflow-x:clip;-webkit-font-smoothing:antialiased}main>section,main>div,footer{overflow-x:clip}img,svg,video,canvas{display:block;max-width:100%}img{height:auto}a{color:inherit;text-decoration:none;touch-action:manipulation;-webkit-tap-highlight-color:rgba(32,128,192,0.2)}ul,ol{list-style:none;margin:0;padding:0}h1,h2,h3,p,figure,dl,dd,fieldset{margin:0}h1,h2,h3{font-family:var(--f-d);color:var(--ink);line-height:1.1;font-weight:700}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer;background:none;border:0;padding:0;touch-action:manipulation;-webkit-tap-highlight-color:transparent}:focus-visible{outline:2px solid var(--electric);outline-offset:3px;border-radius:var(--r-sm)}.hero :focus-visible,.hd :focus-visible,.sec--navy :focus-visible,.ft :focus-visible,.ovl :focus-visible,.close__box :focus-visible,.mq :focus-visible{outline-color:var(--cyan)}.sprite{position:absolute;width:0;height:0;overflow:hidden}.sr{position:absolute !important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.ic{width:1em;height:1em;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}.skip{position:absolute;left:16px;top:-60px;z-index:300;background:var(--blue);color:#fff;padding:10px 16px;border-radius:var(--r);font-weight:600;transition:top 0.2s}.skip:focus{top:12px}.wrap{width:min(1280px,100% - 40px);margin-inline:auto}.sec{padding:var(--sec) 0;position:relative}.sec--navy{background:var(--navy);color:var(--on-dark)}.sec--navy h2,.sec--navy h3{color:var(--white)}.confirm{display:inline-block;max-width:100%;padding:1px 6px;border:1px dashed rgba(94,106,128,0.55);border-radius:4px;background:none;color:var(--muted);font:500 0.82em/1.5 var(--f-m);letter-spacing:0;vertical-align:baseline}.hero .confirm,.sec--navy .confirm,.ft .confirm{color:var(--on-dark-2);border-color:rgba(255,255,255,0.3)}.label{display:inline-flex;align-items:center;gap:10px;margin-bottom:18px;font:600 12px/1 var(--f-m);letter-spacing:0.12em;text-transform:uppercase;color:var(--blue)}.label::before{content:"";width:8px;height:8px;background:var(--electric);border-radius:2px}.label--dark{color:var(--cyan)}.label--dark::before{background:var(--cyan)}.h2{font-size:clamp(32px,4vw,54px);letter-spacing:-0.025em;line-height:1.04;text-wrap:balance}.lead{font-size:18px;color:var(--ink);opacity:0.85}.sec--navy .lead{color:var(--white)}.head-split{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:end;margin-bottom:56px}.head-split__p{font-size:17px;max-width:420px;justify-self:end}.link{color:var(--electric);font-weight:600;text-decoration:underline;text-underline-offset:3px}.sec--navy .link{color:var(--cyan)}.dot{width:8px;height:8px;border-radius:50%;background:var(--muted);display:inline-block}.dot--live{background:var(--cyan);box-shadow:0 0 0 4px rgba(82,208,226,0.22)}.btn{--bg:var(--blue);--fg:var(--white);--sw:var(--cyan);--sw-fg:var(--navy);position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:6px;background:var(--bg);color:var(--fg);font:600 15px/1 var(--f-b);white-space:nowrap;transition:color 0.35s var(--ease),box-shadow 0.3s,transform 0.25s var(--ease)}.btn::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--sw);transform:scaleX(0);transform-origin:right;transition:transform 0.45s var(--ease)}.btn:hover,.btn:focus-visible{color:var(--sw-fg)}.btn:hover::before,.btn:focus-visible::before{transform:scaleX(1);transform-origin:left}.btn .ic{font-size:18px;transition:transform 0.35s var(--ease)}.btn:hover .ic{transform:translateX(4px)}.btn--ghost{--bg:transparent;--sw:var(--white);box-shadow:inset 0 0 0 1px rgba(255,255,255,0.45)}.btn--sm{min-height:42px;padding:0 16px;font-size:14px}.btn--lg{min-height:58px;padding:0 28px;font-size:17px}.btn--block{display:flex;width:100%;justify-content:space-between}.btn:disabled{opacity:0.6;cursor:progress}.cursor{display:none}.has-cursor .cursor{display:grid;place-items:center;position:fixed;top:0;left:0;z-index:400;width:36px;height:36px;margin:-18px 0 0 -18px;border-radius:50%;border:1.5px solid var(--electric);pointer-events:none;will-change:transform;transition:background-color 0.25s,border-color 0.25s,opacity 0.2s,width 0.3s var(--ease),height 0.3s var(--ease),margin 0.3s var(--ease)}.has-cursor .cursor.is-hover{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(32,128,192,0.18);border-color:var(--cyan)}.has-cursor .cursor.is-label{width:78px;height:78px;margin:-39px 0 0 -39px;background:rgba(0,74,174,0.88);border-color:var(--cyan)}.has-cursor .cursor.is-text,.has-cursor .cursor.is-gone{opacity:0}.cursor__label{font:600 11px/1 var(--f-m);letter-spacing:0.08em;text-transform:uppercase;color:var(--white);opacity:0;transition:opacity 0.2s}.cursor.is-label .cursor__label{opacity:1}.hd{position:fixed;inset:0 0 auto;z-index:100;color:var(--white)}.hd__top{height:38px;overflow:hidden;background:rgba(6,20,47,0.9);border-bottom:1px solid var(--line-d);font-size:13.5px;transition:height 0.35s var(--ease),opacity 0.3s}.hd.is-compact .hd__top{height:0;opacity:0}.hd__top-in{display:flex;justify-content:space-between;align-items:center;height:38px;gap:20px}.hd__news{display:inline-flex;align-items:center;gap:10px;color:var(--on-dark)}.hd__news .ic{transition:transform 0.3s var(--ease)}.hd__news:hover{color:var(--white)}.hd__news:hover .ic{transform:translateX(3px)}.hd__top-r{display:flex;align-items:center;gap:22px}.hd__mail{display:inline-flex;align-items:center;gap:8px;color:var(--on-dark)}.hd__mail:hover{color:var(--cyan)}.soc{display:flex;gap:6px}.soc a{display:grid;place-items:center;width:28px;height:28px;border-radius:6px;color:var(--on-dark);font-size:14px;transition:background-color 0.25s,color 0.25s}.soc a:hover{background:var(--electric);color:var(--white)}.soc--lg a{width:42px;height:42px;font-size:17px;background:rgba(255,255,255,0.07)}.hd__bar{position:relative;transition:background-color 0.35s,backdrop-filter 0.35s}.hd.is-compact .hd__bar{background:rgba(6,20,47,0.78);-webkit-backdrop-filter:blur(14px) saturate(1.4);backdrop-filter:blur(14px) saturate(1.4)}.hd__bar-in{display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--hd);transition:height 0.35s var(--ease)}.hd.is-compact .hd__bar-in{height:66px}.logo{display:inline-flex;align-items:center;padding:8px 12px;border-radius:6px;background:var(--white);flex-shrink:0}.logo img{height:28px;width:auto}.nav__list{display:flex;gap:6px}.nav__item{position:relative}.nav__link{position:relative;display:inline-flex;align-items:center;gap:4px;padding:10px 12px;font:600 15px/1 var(--f-b);color:rgba(255,255,255,0.88);border-radius:6px;transition:color 0.25s,background-color 0.25s}.nav__link::after{content:"";position:absolute;left:12px;right:12px;bottom:4px;height:2px;background:var(--cyan);transform:scaleX(0);transform-origin:left;transition:transform 0.35s var(--ease)}.nav__link:hover,.nav__link.is-current,.nav__item.is-open>.nav__link{color:var(--white)}.nav__link:hover::after,.nav__link.is-current::after{transform:scaleX(1)}.nav__link .ic{font-size:16px;transition:transform 0.3s var(--ease)}.nav__item.is-open>.nav__link .ic{transform:rotate(180deg)}.mega{position:absolute;top:calc(100% + 14px);left:50%;width:600px;padding:14px;background:var(--navy-2);border:1px solid var(--line-d);border-radius:var(--r-lg);box-shadow:0 30px 60px -20px rgba(0,0,0,0.6);opacity:0;visibility:hidden;transform:translate(-50%,8px);transition:opacity 0.25s,transform 0.3s var(--ease),visibility 0.25s}.mega::before{content:"";position:absolute;left:0;right:0;top:-16px;height:16px}.nav__item.is-open .mega{opacity:1;visibility:visible;transform:translate(-50%,0)}.mega__grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}.mega a{display:flex;gap:14px;padding:14px;border-radius:var(--r);transition:background-color 0.25s}.mega a>.ic{box-sizing:content-box;padding:9px;font-size:20px;border-radius:6px;background:rgba(82,208,226,0.1);color:var(--cyan);transition:background-color 0.25s,color 0.25s,transform 0.35s var(--ease)}.mega a:hover,.mega a:focus-visible{background:rgba(255,255,255,0.06)}.mega a:hover>.ic{background:var(--cyan);color:var(--navy);transform:rotate(-8deg)}.mega strong{display:block;font:600 15px/1.3 var(--f-b);color:var(--white);margin-bottom:3px}.mega span span,.mega a>span{font-size:13.5px;line-height:1.45;color:var(--on-dark-2)}.hd__acts{display:flex;align-items:center;gap:12px}.menu-btn{display:inline-flex;align-items:center;gap:12px;height:42px;padding:0 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.3);color:var(--white);font:600 14px/1 var(--f-b);transition:background-color 0.25s,border-color 0.25s}.menu-btn:hover{background:rgba(255,255,255,0.08);border-color:var(--cyan)}.menu-btn__lines{display:grid;gap:5px;width:20px}.menu-btn__lines i{height:2px;background:currentColor;border-radius:2px;transition:transform 0.3s var(--ease)}.menu-btn__lines i:last-child{width:70%;justify-self:end}.menu-btn:hover .menu-btn__lines i:last-child{transform:scaleX(1.43);transform-origin:right}.hd__progress{position:absolute;left:0;right:0;bottom:0;height:2px;opacity:0;transition:opacity 0.3s}.hd.is-compact .hd__progress{opacity:1}.hd.no-anim,.hd.no-anim *{transition:none !important}main:focus{outline:none}.hd__progress span{display:block;height:100%;background:var(--cyan);transform:scaleX(var(--p,0));transform-origin:left}.ovl{position:fixed;inset:0;z-index:200;background:var(--navy);color:var(--white);overflow-y:auto;overscroll-behavior:contain;opacity:0;transition:opacity 0.35s}.ovl[hidden]{display:none}.ovl.is-open{opacity:1}.ovl::before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px) 0 0 / 48px 48px,linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px) 0 0 / 48px 48px}.ovl__in{position:relative;display:grid;grid-template-columns:1.6fr 1fr;grid-template-rows:auto 1fr;gap:24px 64px;min-height:100%;padding:22px 0 48px}.ovl__top{grid-column:1 / -1;display:flex;justify-content:space-between;align-items:center}.ovl__logo{height:44px;width:auto;padding:8px 12px;background:var(--white);border-radius:6px}.ovl__close{display:grid;place-items:center;width:48px;height:48px;border-radius:6px;border:1px solid rgba(255,255,255,0.3);font-size:22px;transition:background-color 0.25s,color 0.25s,transform 0.35s var(--ease)}.ovl__close:hover{background:var(--cyan);color:var(--navy);transform:rotate(90deg)}.ovl__nav ol{columns:2;column-gap:40px}.ovl__nav li{break-inside:avoid;opacity:0;transform:translateY(14px);transition:opacity 0.4s var(--ease),transform 0.5s var(--ease);transition-delay:calc(var(--i,0) * 30ms)}.ovl.is-open .ovl__nav li{opacity:1;transform:none}.ovl__nav a{display:flex;align-items:baseline;gap:16px;padding:11px 0;border-bottom:1px solid var(--line-d);font:600 clamp(22px,2.4vw,32px)/1.15 var(--f-d);letter-spacing:-0.015em;transition:color 0.25s,padding 0.35s var(--ease)}.ovl__nav a span{font:500 13px/1 var(--f-m);color:var(--cyan);min-width:22px}.ovl__nav a:hover{color:var(--cyan);padding-left:10px}.ovl__side{display:flex;flex-direction:column;align-items:flex-start;gap:18px;padding-top:12px}.ovl__k{font:600 12px/1 var(--f-m);letter-spacing:0.12em;text-transform:uppercase;color:var(--cyan)}.ovl__mail{font:600 clamp(20px,2vw,26px)/1.2 var(--f-d);overflow-wrap:anywhere}.ovl__mail:hover{color:var(--cyan)}.hero{position:relative;isolation:isolate;background:var(--navy);color:var(--white);min-height:min(max(760px,100svh),960px);padding:calc(38px + var(--hd) + 48px) 0 110px;display:flex;flex-direction:column;justify-content:center}.hero__video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}.hero__shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(6,20,47,0.95) 0%,rgba(6,20,47,0.86) 45%,rgba(6,20,47,0.66) 100%),linear-gradient(0deg,var(--navy) 0%,rgba(6,20,47,0) 30%)}.hero__grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:48px;align-items:center}.hero__title{font-size:clamp(46px,6.6vw,96px);line-height:0.98;letter-spacing:-0.018em;color:var(--white);margin-bottom:26px}.hero__title span{display:block;color:var(--cyan)}.hero__sub{max-width:540px;font-size:18.5px;line-height:1.6;color:rgba(255,255,255,0.86)}.hero__ctas{display:flex;flex-wrap:wrap;gap:14px;margin:34px 0 34px}.proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:640px;border-top:1px solid rgba(32,128,192,0.5)}.proof li{position:relative;display:flex;flex-direction:column;gap:8px;padding:16px 18px 4px}.proof li:first-child{padding-left:0}.proof li + li{border-left:1px solid var(--line-d)}.proof li::before{content:"";position:absolute;left:0;right:0;top:-1px;height:2px;background:var(--cyan);box-shadow:0 0 10px rgba(82,208,226,0.7);transform:scaleX(0);transform-origin:left;transition:transform 0.45s var(--ease)}.proof__n{font:500 11px/1 var(--f-m);letter-spacing:0.12em;color:rgba(82,208,226,0.75)}.proof__row{display:flex;align-items:flex-start;gap:10px;font-size:14.5px;line-height:1.4;color:rgba(255,255,255,0.74);transition:color 0.3s}.proof .ic{flex-shrink:0;margin-top:1px;font-size:20px;color:rgba(255,255,255,0.55);transition:color 0.3s,filter 0.3s,transform 0.35s var(--ease)}.proof li:hover::before{transform:scaleX(1)}.proof li:hover .ic{color:var(--cyan);filter:drop-shadow(0 0 6px rgba(82,208,226,0.9));transform:translateY(-2px)}.proof li:hover .proof__row{color:var(--white)}.js .hero__copy>.proof{opacity:1;transform:none;animation:none}.js .proof li{opacity:0;transform:translateY(14px);animation:rise 0.8s var(--ease) forwards}.js .proof li:nth-child(1){animation-delay:0.45s}.js .proof li:nth-child(2){animation-delay:0.57s}.js .proof li:nth-child(3){animation-delay:0.69s}@media (max-width:640px){.proof{grid-template-columns:1fr}.proof li,.proof li:first-child{flex-direction:row;align-items:baseline;gap:14px;padding:14px 0}.proof li + li{border-left:0;border-top:1px solid var(--line-d)}}.js .hero__copy>*{opacity:0;transform:translateY(22px);animation:rise 0.9s var(--ease) forwards}.js .hero__copy>:nth-child(2){animation-delay:0.08s}.js .hero__copy>:nth-child(3){animation-delay:0.16s}.js .hero__copy>:nth-child(4){animation-delay:0.24s}.js .hero__copy>:nth-child(5){animation-delay:0.32s}.js .map{opacity:0;animation:fade 1.2s 0.3s var(--ease) forwards}@keyframes rise{to{opacity:1;transform:none}}@keyframes fade{to{opacity:1}}.map{position:relative;max-width:540px;justify-self:end;width:100%}.map__svg{width:100%;height:auto;overflow:visible}.map__ring circle{stroke:rgba(255,255,255,0.1);stroke-dasharray:3 7}.map__lines path{stroke:rgba(82,208,226,0.28);stroke-width:1.5;transition:stroke 0.3s,stroke-width 0.3s}.map__lines path.is-on{stroke:var(--cyan);stroke-width:3;filter:drop-shadow(0 0 6px rgba(82,208,226,0.8))}.map__pulses path{stroke:var(--cyan);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 420;stroke-dashoffset:8;animation:pulse 4.8s linear infinite;opacity:0.85}.map__pulses path:nth-child(2){animation-delay:-0.8s}.map__pulses path:nth-child(3){animation-delay:-1.6s}.map__pulses path:nth-child(4){animation-delay:-2.4s}.map__pulses path:nth-child(5){animation-delay:-3.2s}.map__pulses path:nth-child(6){animation-delay:-4s}@keyframes pulse{to{stroke-dashoffset:-200}}.map__core text{fill:var(--white);font:700 19px var(--f-d)}.map__core .map__core-sub{fill:var(--cyan);font:500 10px var(--f-m);letter-spacing:0.1em;text-transform:uppercase}.map__halo{fill:none;stroke:var(--cyan);stroke-width:1.5;transform-box:fill-box;transform-origin:center;animation:halo 3.2s ease-out infinite}@keyframes halo{from{transform:scale(1);opacity:0.7}to{transform:scale(1.45);opacity:0}}.map__node{cursor:pointer;outline:none}.map__node circle{fill:var(--navy-2);stroke:rgba(82,208,226,0.5);stroke-width:1.5;transform-box:fill-box;transform-origin:center;transition:fill 0.3s,stroke 0.3s,transform 0.35s var(--ease)}.map__node use{stroke:var(--cyan);fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;transition:stroke 0.3s}.map__node text{fill:rgba(255,255,255,0.86);font:600 13px var(--f-b)}.map__node:hover circle,.map__node.is-on circle{fill:var(--electric);stroke:var(--cyan);transform:scale(1.1)}.map__node:hover use,.map__node.is-on use{stroke:var(--white)}.map__node:focus-visible circle{stroke:var(--white);stroke-width:3}.map__panel{margin:4px auto 0;max-width:420px;min-height:92px;padding:14px 18px;border-left:3px solid var(--cyan);border-radius:0 var(--r) var(--r) 0;background:rgba(6,20,47,0.7);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}.map__k{font:600 12px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:8px}.map__t{font-size:15px;line-height:1.5;color:rgba(255,255,255,0.9)}.hero__foot{position:absolute;left:0;right:0;bottom:28px;display:flex;justify-content:space-between;align-items:center}.cue{display:inline-flex;align-items:center;gap:12px;font:500 12px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--on-dark)}.cue:hover{color:var(--cyan)}.cue__track{position:relative;width:2px;height:36px;background:rgba(255,255,255,0.2);border-radius:2px;overflow:hidden}.cue__track i{position:absolute;left:0;top:0;width:2px;height:12px;background:var(--cyan);animation:cue 1.8s var(--ease) infinite}@keyframes cue{from{transform:translateY(-12px)}to{transform:translateY(36px)}}.vid-btn{display:grid;place-items:center;width:40px;height:40px;border-radius:6px;border:1px solid rgba(255,255,255,0.3);color:var(--white);font-size:15px;transition:background-color 0.25s}.vid-btn:hover{background:rgba(255,255,255,0.1)}.vid-btn .ic-pause{stroke-width:2.6}.vid-btn .ic-play{display:none;fill:currentColor;stroke:none}.vid-btn.is-paused .ic-play{display:block}.vid-btn.is-paused .ic-pause{display:none}.spot{position:relative}.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(82,208,226,0.16),transparent 60%);opacity:0;transition:opacity 0.3s}.spot:hover::after{opacity:1}.bento-sec{padding-top:90px}.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}.tile{display:flex;flex-direction:column;padding:32px;border-radius:var(--r-lg);background:var(--white);border:1px solid var(--line);overflow:hidden;transition:transform 0.4s var(--ease),box-shadow 0.35s,border-color 0.35s}.tile:hover,.tile:focus-within{transform:translateY(-5px);box-shadow:var(--glow);border-color:var(--electric)}.tile__h{font-size:clamp(24px,2.4vw,32px);letter-spacing:-0.02em;margin-bottom:12px}.tile--mods{grid-column:1 / 6}.tile--ai{grid-column:6 / 13;grid-row:1 / 3;background:var(--navy);color:var(--on-dark);border-color:var(--navy)}.tile--ai .tile__h{color:var(--white)}.tile--ai .label{color:var(--cyan)}.tile--ai .label::before{background:var(--cyan)}.tile--vm{grid-column:1 / 6}.mods{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.mod-pill{display:inline-flex;align-items:center;height:50px;padding:0 14px;border-radius:6px;border:1px solid var(--line);background:var(--paper);color:var(--blue);font-weight:600;font-size:14.5px;transition:background-color 0.3s,color 0.3s,border-color 0.3s}.mod-pill .ic{font-size:22px;transition:transform 0.4s var(--ease)}.mod-pill span{max-width:0;opacity:0;overflow:hidden;white-space:nowrap;transition:max-width 0.45s var(--ease),opacity 0.3s,margin 0.45s var(--ease)}.mod-pill:hover,.mod-pill:focus-visible{background:var(--blue);color:var(--white);border-color:var(--blue)}.mod-pill:hover span,.mod-pill:focus-visible span{max-width:210px;opacity:1;margin-left:10px}.mod-pill:hover .ic{transform:rotate(-10deg) scale(1.08)}.tile__head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}.tag-ex{flex-shrink:0;padding:5px 8px;border-radius:4px;border:1px solid rgba(242,167,27,0.6);color:var(--amber);font:600 10.5px/1 var(--f-m);letter-spacing:0.08em;text-transform:uppercase}.console{margin-top:18px;flex:1;display:flex;flex-direction:column;border-radius:var(--r);background:#030b1c;border:1px solid var(--line-d);font:400 13.5px/1.6 var(--f-m);overflow:hidden}.console__bar{display:flex;align-items:center;gap:6px;padding:10px 14px;border-bottom:1px solid var(--line-d);background:rgba(255,255,255,0.03)}.console__bar i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,0.18)}.console__bar span{margin-left:10px;font-size:12px;color:var(--on-dark-2)}.console__body{padding:20px;display:grid;gap:14px;align-content:start}.cl{display:flex;gap:12px;color:rgba(255,255,255,0.86)}.cl b{flex-shrink:0;width:56px;font-weight:600;font-size:11.5px;letter-spacing:0.06em;padding-top:2px}.cl--alert b{color:var(--amber)}.cl--cause b{color:var(--cyan)}.cl--fix b{color:#7ee2b0}.cl--done b{color:var(--on-dark-2)}.cl--done span{color:var(--on-dark-2)}.console__ctx{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:14px 20px;border-top:1px solid var(--line-d);font-size:12px;color:var(--on-dark-2)}.console__ctx span{margin-right:4px}.console__ctx i{font-style:normal;padding:4px 8px;border-radius:4px;background:rgba(82,208,226,0.1);color:var(--cyan)}.cl--act{align-items:center;padding-left:68px;flex-wrap:wrap}.cl--act em{font-style:normal;font-size:12px;color:var(--on-dark-2)}.fake-btn{padding:7px 14px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);font:600 12.5px/1 var(--f-b);color:var(--white)}.fake-btn--go{background:var(--cyan);border-color:var(--cyan);color:var(--navy)}.console.is-anim .cl{opacity:0;transform:translateY(8px);transition:opacity 0.5s var(--ease),transform 0.5s var(--ease)}.console.is-anim .cl.is-show{opacity:1;transform:none}.console.is-anim .cl--act.is-show .fake-btn--go{animation:nudge 1.6s ease-in-out 0.4s infinite}@keyframes nudge{50%{box-shadow:0 0 0 6px rgba(82,208,226,0.25)}}.vm-art{margin:22px 0 18px;width:100%;max-width:320px}.vm-art rect{stroke:var(--electric)}.vm-art .vm-art__b{stroke:var(--cyan);fill:rgba(82,208,226,0.12)}.vm-art__p{stroke:var(--electric)}.vm-art__blk rect{fill:var(--blue)}.tile--vm:hover .vm-art__blk rect{animation:hop 1.4s var(--ease) infinite}.tile--vm:hover .vm-art__blk rect:nth-child(2){animation-delay:0.15s}.tile--vm:hover .vm-art__blk rect:nth-child(3){animation-delay:0.3s}@keyframes hop{50%{transform:translateX(14px);fill:var(--cyan)}}.tile__link{margin-top:auto;display:inline-flex;align-items:center;gap:8px;color:var(--electric);font-weight:600}.tile__link .ic{transition:transform 0.35s var(--ease)}.tile--vm:hover .tile__link .ic{transform:translateX(5px)}.about{background:var(--white)}.about__grid{display:grid;grid-template-columns:1fr 1.1fr;gap:72px;align-items:center}.about__copy .h2{margin-bottom:22px}.about__copy p + p{margin-top:14px}.ticks{margin-top:26px;display:grid;gap:12px}.ticks li{display:flex;gap:12px;color:var(--ink);font-weight:500}.ticks .ic{margin-top:3px;font-size:20px;color:var(--electric);stroke-width:2.6}.ba{padding:22px;border-radius:var(--r-lg);background:var(--navy);color:var(--on-dark)}.ba__switch{position:relative;display:grid;grid-template-columns:1fr 1fr;padding:4px;border-radius:var(--r);background:rgba(255,255,255,0.06)}.ba__switch button{position:relative;z-index:1;height:42px;border-radius:6px;font-weight:600;font-size:14.5px;color:var(--white);transition:color 0.35s}.ba__switch button[aria-pressed="true"]{color:var(--navy)}.ba__thumb{position:absolute;top:4px;bottom:4px;left:4px;width:calc(50% - 4px);border-radius:6px;background:var(--cyan);transition:transform 0.45s var(--ease)}.ba[data-state="after"] .ba__thumb{transform:translateX(100%)}.ba__svg{width:100%;height:auto;margin:14px 0 6px;overflow:visible}.ba__svg text{fill:var(--white);font:600 14px var(--f-b)}.ba__svg .ba__sub{fill:var(--on-dark-2);font:500 11px var(--f-m);transition:opacity 0.4s}.ba__frame{opacity:0;transition:opacity 0.5s 0.25s}.ba__frame rect{fill:var(--navy-2);stroke:rgba(82,208,226,0.5)}.ba__frame .ba__frame-bar{fill:var(--navy-3);stroke:none}.ba__frame text{font:600 13px var(--f-m);fill:var(--cyan)}.ba__frame circle{fill:var(--cyan)}.ba__tangle path{stroke:rgba(242,167,27,0.6);stroke-width:1.5;stroke-dasharray:5 6;transition:opacity 0.4s}.ba__clean path{stroke:var(--cyan);stroke-width:2;stroke-dasharray:260;stroke-dashoffset:260;transition:stroke-dashoffset 0.8s 0.5s var(--ease)}.ba__tool{transition:transform 0.8s var(--ease)}.ba__tool rect{fill:var(--navy-3);stroke:rgba(255,255,255,0.22);transition:fill 0.5s,stroke 0.5s}.ba__tool use{stroke:var(--cyan);fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}.ba__tool--c{transform:translate(30px,40px) rotate(-6deg)}.ba__tool--n{transform:translate(362px,24px) rotate(5deg)}.ba__tool--s{transform:translate(40px,300px) rotate(4deg)}.ba__tool--m{transform:translate(356px,306px) rotate(-4deg)}.ba[data-state="after"] .ba__tool--c{transform:translate(90px,120px)}.ba[data-state="after"] .ba__tool--n{transform:translate(300px,120px)}.ba[data-state="after"] .ba__tool--s{transform:translate(90px,250px)}.ba[data-state="after"] .ba__tool--m{transform:translate(300px,250px)}.ba[data-state="after"] .ba__tool rect{fill:rgba(32,128,192,0.28);stroke:var(--cyan)}.ba[data-state="after"] .ba__sub{opacity:0}.ba[data-state="after"] .ba__tangle path{opacity:0}.ba[data-state="after"] .ba__frame{opacity:1}.ba[data-state="after"] .ba__clean path{stroke-dashoffset:0}.ba__cap{font-size:15px;text-align:center;color:var(--white)}.xp{display:grid;grid-template-columns:340px 1fr;gap:28px;align-items:start}.xp__list{display:grid;gap:4px}.xp__tab{display:flex;align-items:center;gap:14px;width:100%;padding:14px 16px;border-radius:var(--r);border-left:2px solid transparent;text-align:left;font:600 16.5px/1.3 var(--f-b);color:rgba(255,255,255,0.72);transition:background-color 0.25s,color 0.25s,border-color 0.25s}.xp__tab .ic{box-sizing:content-box;padding:9px;font-size:20px;border-radius:6px;background:rgba(255,255,255,0.06);color:var(--cyan);transition:background-color 0.3s,color 0.3s,transform 0.4s var(--ease)}.xp__tab:hover{background:rgba(255,255,255,0.05);color:var(--white)}.xp__tab:hover .ic{transform:rotate(-8deg)}.xp__tab[aria-selected="true"]{background:rgba(32,128,192,0.18);border-left-color:var(--cyan);color:var(--white);border-radius:0 var(--r) var(--r) 0}.xp__tab[aria-selected="true"] .ic{background:var(--cyan);color:var(--navy)}.xp__panel{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;min-height:400px;padding:40px;border-radius:var(--r-lg);background:var(--navy-2);border:1px solid var(--line-d);animation:panel-in 0.45s var(--ease)}.xp__panel[hidden]{display:none}@keyframes panel-in{from{opacity:0;transform:translateY(10px)}}.xp__text h3{font-size:clamp(26px,2.6vw,34px);letter-spacing:-0.02em;margin-bottom:14px}.incl{margin-top:22px;display:grid;gap:10px}.incl li{display:flex;gap:10px;color:var(--white)}.incl li::before{content:"";flex-shrink:0;width:18px;height:18px;margin-top:3px;border-radius:4px;background:rgba(82,208,226,0.15) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2352d0e2' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12.5 4 4L18 8'/%3E%3C/svg%3E") center / 13px no-repeat}.xp__viz{width:100%;height:auto}.xp__viz text{fill:var(--on-dark-2);font:500 11px var(--f-m)}.xp__viz rect,.xp__viz circle,.xp__viz path{stroke-width:1.5}.viz-compute .v-host rect{fill:rgba(255,255,255,0.03);stroke:rgba(255,255,255,0.2)}.viz-compute .v-vm rect{fill:rgba(32,128,192,0.35);stroke:var(--electric)}.viz-compute .v-move{fill:rgba(82,208,226,0.4);stroke:var(--cyan);animation:migrate 3.2s var(--ease) infinite}@keyframes migrate{0%,15%{transform:translate(0,0)}55%,85%{transform:translate(140px,0)}100%{transform:translate(0,0)}}.viz-net .v-seg{fill:rgba(32,128,192,0.1);stroke:rgba(32,128,192,0.6);stroke-dasharray:4 5}.viz-net .v-seg--b{fill:rgba(82,208,226,0.08);stroke:rgba(82,208,226,0.6)}.viz-net .v-links path{stroke:var(--cyan);fill:none;stroke-dasharray:300;stroke-dashoffset:300;animation:draw 1.4s var(--ease) forwards}.viz-net .v-nodes circle{fill:var(--navy);stroke:var(--cyan)}.viz-store .v-bars rect{fill:rgba(255,255,255,0.05);stroke:rgba(255,255,255,0.15)}.viz-store .v-fill rect{fill:var(--electric);transform-box:fill-box;transform-origin:left;animation:grow 1s var(--ease) both}.viz-store .v-fill rect:nth-child(2){fill:var(--cyan);animation-delay:0.12s}.viz-store .v-fill rect:nth-child(3){animation-delay:0.24s}@keyframes grow{from{transform:scaleX(0)}}.viz-mon .v-grid path{stroke:rgba(255,255,255,0.08)}.viz-mon .v-line{fill:none;stroke:var(--cyan);stroke-width:2.5;stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.6s var(--ease) forwards}.viz-mon .v-mark{fill:var(--amber)}.viz-mon .v-tip{fill:var(--navy);stroke:var(--amber)}.viz-mon .v-tip + text{fill:var(--amber)}.viz-acc .v-rows rect{fill:rgba(255,255,255,0.04);stroke:rgba(255,255,255,0.15)}.viz-acc text{font-size:13px;fill:var(--white)}.viz-acc .v-log{font-size:11px;fill:var(--on-dark-2)}.viz-acc .v-chk path{fill:none;stroke:var(--cyan);stroke-width:2.5;stroke-dasharray:30;stroke-dashoffset:30;animation:draw 0.6s var(--ease) forwards}.viz-acc .v-chk path:nth-child(2){animation-delay:0.2s}.viz-acc .v-chk path:nth-child(3){animation-delay:0.4s}.viz-ai .v-q{fill:var(--electric)}.viz-ai .v-a{fill:rgba(255,255,255,0.06);stroke:rgba(255,255,255,0.15);animation:panel-in 0.6s 0.4s var(--ease) both}.viz-ai text{fill:var(--white);font-size:13px}.viz-ai .v-ok{fill:var(--cyan)}.viz-ai .v-ok-t{fill:var(--navy);font-weight:600}@keyframes draw{to{stroke-dashoffset:0}}.why__grid{display:grid;grid-template-columns:1.08fr 0.92fr;gap:64px}.why__pin{position:sticky;top:100px;align-self:start;padding:24px;border-radius:var(--r-lg);background:var(--white);border:1px solid var(--line)}.arch{width:100%;height:auto}.arch rect{fill:var(--paper);stroke:rgba(6,20,47,0.16);stroke-width:1.5;transition:fill 0.45s,stroke 0.45s}.arch text{fill:var(--ink);font:600 13px var(--f-b);transition:fill 0.45s}.arch .a-big{font:700 16px var(--f-d)}.arch .a-sub{font:500 10.5px var(--f-m);fill:var(--muted)}.arch .a-w{fill:none;stroke:rgba(0,74,174,0.35);stroke-width:1.5;stroke-dasharray:4 4}.arch .a-layer>rect{fill:rgba(32,128,192,0.06);stroke:rgba(32,128,192,0.45)}.arch .a-l{transition:opacity 0.45s}.arch[data-active] .a-l:not(.a-layer){opacity:0.5}.arch[data-active="ai"] [data-l="ai"],.arch[data-active="unified"] [data-l="unified"],.arch[data-active="foundation"] [data-l="foundation"],.arch[data-active="envs"] [data-l="envs"]{opacity:1}.arch[data-active="ai"] [data-l="ai"] rect,.arch[data-active="unified"] [data-l="unified"] rect,.arch[data-active="foundation"] [data-l="foundation"] rect,.arch[data-active="envs"] [data-l="envs"] rect{fill:var(--blue);stroke:var(--cyan);filter:drop-shadow(0 6px 14px rgba(0,74,174,0.35))}.arch[data-active="ai"] [data-l="ai"] text,.arch[data-active="unified"] [data-l="unified"] text,.arch[data-active="foundation"] [data-l="foundation"] text,.arch[data-active="envs"] [data-l="envs"] text{fill:var(--white)}.arch [data-l="team"]{opacity:1 !important}.why__intro{margin-bottom:20px}.why__intro .h2{margin-bottom:16px}.step{min-height:56vh;display:flex;flex-direction:column;justify-content:center;padding-left:28px;border-left:2px solid var(--line);opacity:0.45;transition:opacity 0.4s,border-color 0.4s}.step.is-active{opacity:1;border-left-color:var(--electric)}.step__n{font:600 12px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--electric);margin-bottom:14px}.step h3{font-size:clamp(24px,2.4vw,32px);letter-spacing:-0.02em;margin-bottom:12px;transition:color 0.4s}.step.is-active h3{color:var(--blue)}.step p{font-size:17px;max-width:480px}.mq{background:var(--blue);color:var(--white);padding:14px 0;overflow:hidden}.mq__row{overflow:hidden;padding:8px 0}.mq__track{display:flex;width:max-content;animation:mq 80s linear infinite}.mq__row--rev .mq__track{animation-direction:reverse;animation-duration:95s}.mq__row:hover .mq__track{animation-play-state:paused}.mq ul{display:flex;flex-shrink:0}.mq li{display:flex;align-items:center;padding:0 30px;font:600 clamp(24px,2.6vw,34px)/1.2 var(--f-d);letter-spacing:-0.01em;white-space:nowrap;transition:color 0.25s}.mq li::after{content:"";width:9px;height:9px;margin-left:60px;border-radius:2px;background:var(--cyan);transform:rotate(45deg)}.mq li:hover{color:var(--cyan)}.mq__row--rev li{font-size:clamp(18px,1.8vw,24px);color:rgba(255,255,255,0.72)}.mq__row--rev li:hover{color:var(--white)}@keyframes mq{to{transform:translateX(-50%)}}.roadmap{background:var(--white)}.roadmap .wrap{position:relative;z-index:1}.roadmap__bg{position:absolute;left:0;right:0;top:40px;z-index:0;margin:0;text-align:center;white-space:nowrap;font:800 clamp(52px,15vw,230px)/1 var(--f-d);letter-spacing:-0.02em;color:rgba(6,20,47,0.04);pointer-events:none;user-select:none;transform:translateY(var(--py,0px))}.tl{position:relative}.tl__rail{position:absolute;inset:0;z-index:0;pointer-events:none}.tl__seg{position:absolute;display:none;border-radius:4px;transform-origin:0 0}.js .tl__seg{display:block}.tl__seg--rail{background:var(--paper-2)}.tl__seg--live{background:var(--cyan);transition:transform 0.9s var(--ease)}.tl__seg--dev{transition:transform 0.9s 0.85s var(--ease)}.tl__seg--dev[data-axis="x"]{background:repeating-linear-gradient(90deg,var(--amber) 0 8px,transparent 8px 13px)}.tl__seg--dev[data-axis="y"]{background:repeating-linear-gradient(180deg,var(--amber) 0 8px,transparent 8px 13px)}.rv-on .tl:not(.is-in) .tl__seg--live[data-axis="x"],.rv-on .tl:not(.is-in) .tl__seg--dev[data-axis="x"]{transform:scaleX(0)}.rv-on .tl:not(.is-in) .tl__seg--live[data-axis="y"],.rv-on .tl:not(.is-in) .tl__seg--dev[data-axis="y"]{transform:scaleY(0)}.tl__stages{position:relative;z-index:1;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.tl__stage{position:relative;display:flex;flex-direction:column;align-items:center;gap:10px;padding:0 6px 26px;text-align:center;border-radius:var(--r)}.tl__stage:focus-visible{outline-offset:2px}.tl__dot{position:relative;display:grid;place-items:center;width:28px;height:28px;margin-bottom:6px;border-radius:50%;border:3px solid #c3cbd8;background:var(--white);color:var(--navy);transition:transform 0.35s var(--ease),box-shadow 0.35s}.tl__dot .ic{font-size:14px;stroke-width:3.2}[data-status="live"] .tl__dot{background:var(--cyan);border-color:var(--cyan)}[data-status="dev"] .tl__dot{border-color:var(--amber)}[data-status="dev"] .tl__dot::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:2px solid var(--amber);animation:ring 2.4s ease-out infinite}@keyframes ring{from{transform:scale(1);opacity:0.8}to{transform:scale(1.9);opacity:0}}.tl__stage:hover .tl__dot{transform:scale(1.1)}.tl__stage[aria-selected="true"] .tl__dot{transform:scale(1.18);box-shadow:0 0 0 9px rgba(32,128,192,0.14)}.tl__stage[aria-selected="true"][data-status="live"] .tl__dot{box-shadow:0 0 0 9px rgba(82,208,226,0.25)}.tl__stage[aria-selected="true"][data-status="dev"] .tl__dot{box-shadow:0 0 0 9px rgba(242,167,27,0.2)}.tl__n{font:600 12px/1 var(--f-m);color:var(--muted)}.tl__name{display:flex;align-items:flex-start;justify-content:center;min-height:2.4em;font:700 18px/1.2 var(--f-d);color:var(--ink);transition:color 0.3s}.tl__stage:hover .tl__name,.tl__stage[aria-selected="true"] .tl__name{color:var(--blue)}.tl__ind{position:absolute;left:0;bottom:0;width:56px;height:3px;border-radius:3px;background:var(--muted);transform:translateX(var(--ix,0px));transition:transform 0.45s var(--ease),background-color 0.3s}.tl__ind[data-status="live"]{background:var(--cyan)}.tl__ind[data-status="dev"]{background:var(--amber)}.badge{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border-radius:4px;background:#edf0f5;color:#556074;font:600 11px/1 var(--f-m);letter-spacing:0.06em;text-transform:uppercase}.badge--live{background:rgba(82,208,226,0.2);color:var(--live-ink)}.badge--dev{background:#fff1d6;color:var(--amber-ink)}.tl__panels{margin-top:30px}.js .tl__panels{display:grid}.tl__panel{--acc:#9aa3b2;display:grid;grid-template-columns:1.15fr 1fr;gap:32px;align-items:center;padding:28px 32px;border-radius:var(--r-lg);background:var(--paper);border-left:3px solid var(--acc)}.tl__panel[data-status="live"]{--acc:var(--cyan)}.tl__panel[data-status="dev"]{--acc:var(--amber)}html:not(.js) .tl__panel + .tl__panel{margin-top:12px}.js .tl__panel{grid-area:1 / 1;transition:opacity 0.35s var(--ease),transform 0.35s var(--ease),visibility 0.35s}.js .tl__panel:not(.is-active){opacity:0;visibility:hidden;transform:translateY(6px)}.tl__panel p{font-size:17px;color:var(--ink)}.chk{display:grid;grid-template-columns:1fr 1fr;gap:8px}.chk li{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:4px;border:1px solid var(--line);background:var(--white);font-size:14px;line-height:1.3;color:var(--ink)}.chk li::before{content:"";flex-shrink:0;width:16px;height:16px;border-radius:4px;background:#edf0f5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237a8396' stroke-width='3'%3E%3Ccircle cx='12' cy='12' r='6'/%3E%3C/svg%3E") center / 12px no-repeat}[data-status="live"] .chk li::before{background:rgba(82,208,226,0.22) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230b6a7a' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12.5 4 4L18 8'/%3E%3C/svg%3E") center / 12px no-repeat}[data-status="dev"] .chk li::before{background:#fff1d6 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a5300' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M12 6a6 6 0 0 1 0 12'/%3E%3Ccircle cx='12' cy='12' r='6' stroke-dasharray='2 3'/%3E%3C/svg%3E") center / 12px no-repeat}.envs-sec{background:var(--paper)}.envs-head{max-width:720px;margin-bottom:44px}.envs{display:flex;gap:12px;height:500px}.env{position:relative;flex:1 1 0;min-width:0;display:flex;flex-direction:column;padding:26px;border-radius:var(--r-lg);overflow:hidden;color:var(--on-dark);background:linear-gradient(rgba(255,255,255,0.04) 1px,transparent 1px) 0 0 / 26px 26px,linear-gradient(90deg,rgba(255,255,255,0.04) 1px,transparent 1px) 0 0 / 26px 26px,linear-gradient(160deg,var(--navy-3),var(--navy));transition:flex-grow 0.6s var(--ease),box-shadow 0.35s}.env:hover{box-shadow:var(--glow)}.env.is-open{flex-grow:3.2;background-color:var(--blue);background-image:linear-gradient(rgba(255,255,255,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.06) 1px,transparent 1px),linear-gradient(150deg,#0a5fd0,var(--blue) 55%,var(--navy-2));background-size:26px 26px,26px 26px,auto}.env__tab{display:flex;flex-direction:column;align-items:flex-start;gap:10px;text-align:left;color:var(--white)}.env__name{font:700 22px/1.15 var(--f-d);letter-spacing:-0.01em}.env__flag{padding:4px 8px;border-radius:4px;background:var(--cyan);color:var(--navy);font:600 10.5px/1 var(--f-m);letter-spacing:0.08em;text-transform:uppercase}.env__art{width:120px;margin-top:auto;color:var(--cyan);stroke:currentColor;transition:transform 0.6s var(--ease),width 0.6s var(--ease)}.env__led circle{fill:var(--cyan);animation:led 2s ease-in-out infinite}.env__led circle:nth-child(2){animation-delay:0.4s}.env__led circle:nth-child(3){animation-delay:0.8s}@keyframes led{50%{opacity:0.25}}.env.is-open .env__art{position:absolute;top:24px;right:24px;width:130px;color:var(--white)}.env:not(.is-open):hover .env__art{transform:translateY(-6px) scale(1.06)}.env__body{margin-top:auto;max-width:560px;animation:panel-in 0.5s 0.15s var(--ease) both}.env__body[hidden]{display:none}.env__body>p{font-size:17px;color:var(--white);margin-bottom:18px}.env__body dl{display:grid;grid-template-columns:1fr 1fr;gap:18px}.env__body dt{font:600 11px/1.3 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:6px}.env__body dd{font-size:15px;color:rgba(255,255,255,0.86)}.env__body dl>dt:nth-of-type(2){grid-column:2;grid-row:1}.env__body dl>dd:nth-of-type(2){grid-column:2;grid-row:2}.start{background:var(--white)}.pick{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:16px}.pick__opt{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:24px;border-radius:var(--r-lg);border:1.5px solid var(--line);background:var(--paper);text-align:left;transition:border-color 0.3s,background-color 0.3s,box-shadow 0.3s,transform 0.35s var(--ease)}.pick__opt::after{content:"";position:absolute;top:20px;right:20px;width:22px;height:22px;border-radius:50%;border:2px solid rgba(6,20,47,0.25);transition:all 0.3s}.pick__opt:hover{transform:translateY(-4px);border-color:var(--electric)}.pick__opt[aria-checked="true"]{border-color:var(--blue);background:var(--white);box-shadow:0 0 0 4px rgba(32,128,192,0.16)}.pick__opt[aria-checked="true"]::after{border-color:var(--blue);background:var(--blue) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12.5 4 4L18 8'/%3E%3C/svg%3E") center / 13px no-repeat}.pick__k{font:600 11.5px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--electric)}.pick__t{font:700 22px/1.2 var(--f-d);color:var(--ink);padding-right:32px}.pick__s{font-size:14.5px;color:var(--muted)}.plan{margin-top:20px;padding:40px;border-radius:var(--r-lg);background:var(--navy);color:var(--on-dark)}.plan__res{display:grid;grid-template-columns:1fr 1fr 0.8fr;gap:32px;animation:panel-in 0.45s var(--ease)}.plan__res[hidden]{display:none}.plan__res h3{font:600 12px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}.plan__res p{color:rgba(255,255,255,0.88)}.outs{display:grid;gap:10px}.outs li{display:flex;align-items:center;gap:10px;color:var(--white);font-weight:500}.outs .ic{box-sizing:content-box;padding:4px;border-radius:4px;background:rgba(82,208,226,0.15);color:var(--cyan);stroke-width:2.4}.plan__res .btn{grid-column:1 / -1;justify-self:start}.vs__grid{display:grid;grid-template-columns:0.75fr 1.25fr;gap:56px;align-items:start}.vs__side{position:sticky;top:100px}.vs__side .h2{margin-bottom:16px}.vs__take{margin-top:28px;min-height:140px;padding:22px;border-radius:var(--r);border-left:3px solid var(--cyan);background:var(--navy-2)}.vs__take-k{font:600 12px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:10px}.vs__take-t{font:600 19px/1.4 var(--f-d);color:var(--white)}.vs__table{width:100%;border-collapse:separate;border-spacing:0;font-size:15px}.vs__table th,.vs__table td{padding:18px 18px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line-d);transition:background-color 0.25s,color 0.25s}.vs__table thead th{font:600 11.5px/1.2 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--on-dark-2);border-bottom-color:rgba(255,255,255,0.25)}.vs__table thead th:last-child{color:var(--cyan)}.vs__table tbody th{font:700 16px/1.3 var(--f-d);color:var(--white);width:26%}.vs__table td{color:rgba(255,255,255,0.66)}.vs__table td:last-child{color:var(--white);background:rgba(32,128,192,0.1)}.vs__table tbody tr{cursor:pointer;outline:none}.vs__table tbody tr:hover th,.vs__table tbody tr:hover td,.vs__table tbody tr.is-on th,.vs__table tbody tr.is-on td{background:rgba(82,208,226,0.12)}.vs__table tbody tr.is-on th{box-shadow:inset 3px 0 0 var(--cyan)}.vs__table tbody tr:focus-visible th{box-shadow:inset 3px 0 0 var(--cyan),inset 0 0 0 2px var(--cyan)}.calc{background:var(--paper)}.calc-head{max-width:720px;margin-bottom:44px}.calc-head .h2{margin-bottom:14px}.calc__grid{display:grid;grid-template-columns:1fr 1.08fr;gap:24px;align-items:start}.calc__in{padding:32px;border-radius:var(--r-lg);background:var(--white);border:1px solid var(--line);display:grid;gap:26px}.rng{display:grid;grid-template-columns:1fr auto;gap:12px 16px;align-items:baseline}.rng label{font-weight:600;color:var(--ink);font-size:15px}.rng output{font:600 16px/1 var(--f-m);color:var(--blue);font-variant-numeric:tabular-nums}.rng input{grid-column:1 / -1}.rng__note{grid-column:1 / -1;margin-top:-4px;font-size:13px;color:var(--amber-ink)}input[type="range"]{-webkit-appearance:none;appearance:none;width:100%;height:28px;background:transparent;cursor:pointer}input[type="range"]::-webkit-slider-runnable-track{height:6px;border-radius:6px;background:linear-gradient(90deg,var(--electric) 0 var(--fill,50%),var(--paper-2) var(--fill,50%) 100%)}input[type="range"]::-moz-range-track{height:6px;border-radius:6px;background:var(--paper-2)}input[type="range"]::-moz-range-progress{height:6px;border-radius:6px;background:var(--electric)}input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;width:24px;height:24px;margin-top:-9px;border-radius:50%;background:var(--white);border:3px solid var(--blue);box-shadow:0 2px 8px rgba(0,74,174,0.3);transition:transform 0.2s}input[type="range"]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--white);border:3px solid var(--blue)}input[type="range"]:hover::-webkit-slider-thumb,input[type="range"]:active::-webkit-slider-thumb{transform:scale(1.15)}input[type="range"]:focus-visible{outline:none}input[type="range"]:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 5px rgba(32,128,192,0.35)}input[type="range"]:focus-visible::-moz-range-thumb{box-shadow:0 0 0 5px rgba(32,128,192,0.35)}.calc__out{padding:32px;border-radius:var(--r-lg);background:var(--navy);color:var(--on-dark)}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kpi{padding:18px;border-radius:var(--r);background:var(--navy-2);border:1px solid var(--line-d);display:flex;flex-direction:column;gap:6px}.kpi--big{grid-column:1 / -1;background:linear-gradient(135deg,rgba(32,128,192,0.35),rgba(6,20,47,0));border-color:rgba(82,208,226,0.4)}.kpi__v{font:700 26px/1.1 var(--f-d);color:var(--white);font-variant-numeric:tabular-nums}.kpi--big .kpi__v{font-size:clamp(40px,4.4vw,58px);color:var(--cyan);letter-spacing:-0.02em}.kpi__l{font-size:13.5px;color:var(--on-dark-2)}.rack{margin:26px 0 18px}.rack__l{display:flex;justify-content:space-between;font:500 12px/1 var(--f-m);letter-spacing:0.06em;text-transform:uppercase;color:var(--on-dark-2);margin:14px 0 8px}.rack__l span{color:var(--white)}.rack__row{display:flex;flex-wrap:wrap;gap:4px;min-height:22px}.rack__row i{width:10px;height:18px;border-radius:2px;background:var(--electric);transition:background-color 0.35s,opacity 0.35s,transform 0.35s var(--ease)}.rack__row[data-rack="after"] i{background:var(--cyan)}.rack__row i.is-off{background:transparent;box-shadow:inset 0 0 0 1px rgba(255,255,255,0.28);transform:scale(0.85)}.calc__fine{font-size:13px;color:var(--on-dark-2);margin-bottom:22px}.ready{background:var(--white)}.ready__grid{display:grid;grid-template-columns:1.3fr 0.7fr;gap:56px;align-items:start}.ready__q .h2{margin-bottom:14px}.qs{margin-top:30px;counter-reset:q;border-top:1px solid var(--line)}.qs li{counter-increment:q;padding:16px 0;border-bottom:1px solid var(--line)}.qs fieldset{border:0;padding:0;display:flex;align-items:center;justify-content:space-between;gap:20px}.qs legend{float:left;width:calc(100% - 170px);padding:0;font-weight:600;color:var(--ink);font-size:16.5px}.qs legend::before{content:counter(q,decimal-leading-zero);margin-right:14px;font:600 12px/1 var(--f-m);color:var(--electric)}.yn{display:flex;gap:6px;margin-left:auto}.yn input{position:absolute;opacity:0;width:1px;height:1px}.yn label{display:grid;place-items:center;min-width:72px;height:44px;padding:0 14px;border-radius:6px;border:1.5px solid var(--line);font-weight:600;font-size:14.5px;color:var(--ink);cursor:pointer;transition:background-color 0.25s,color 0.25s,border-color 0.25s,transform 0.2s}.yn label:hover{border-color:var(--electric)}.yn input:checked + label{transform:scale(1.03)}.yn input[value="1"]:checked + label{background:var(--blue);border-color:var(--blue);color:var(--white)}.yn input[value="0"]:checked + label{background:var(--ink);border-color:var(--ink);color:var(--white)}.yn input:focus-visible + label{outline:2px solid var(--electric);outline-offset:2px}.score{position:sticky;top:100px;padding:32px;border-radius:var(--r-lg);background:var(--navy);color:var(--on-dark);text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px}.score__ring{width:160px;height:160px;transform:rotate(-90deg);fill:none;stroke-width:9}.score__ring circle{stroke:rgba(255,255,255,0.12)}.score__ring .score__bar{stroke:var(--cyan);stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:var(--s,100);transition:stroke-dashoffset 0.6s var(--ease)}.score__n{margin-top:-110px;height:98px;font:700 48px/1 var(--f-d);color:var(--white);font-variant-numeric:tabular-nums}.score__n small{display:block;margin-top:4px;font:500 12px/1 var(--f-m);letter-spacing:0.1em;text-transform:uppercase;color:var(--on-dark-2)}.score__h{font:700 19px/1.3 var(--f-d);color:var(--white)}.score__t{font-size:14.5px}.score__t:empty{display:none}.cell__head{max-width:760px;margin-bottom:56px}.cell__head .h2{margin-bottom:16px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:start}.stat{padding:28px;border-radius:var(--r-lg);background:var(--navy-2);border:1px solid var(--line-d);outline-offset:3px;transition:transform 0.4s var(--ease),box-shadow 0.35s,border-color 0.35s}.stat:nth-child(2){margin-top:56px}.stat:nth-child(3){margin-top:112px}.stat:hover,.stat:focus-visible{transform:translateY(-6px);border-color:var(--electric);box-shadow:0 0 0 1px var(--electric),0 24px 50px -24px rgba(82,208,226,0.4)}.stat__viz{width:100%;height:auto;margin-bottom:18px}.stat__v{font:600 14px/1.4 var(--f-m);color:var(--amber);margin-bottom:8px}.stat h3{font-size:23px;margin-bottom:8px}.sv-mem rect{fill:rgba(32,128,192,0.35)}.sv-over rect{fill:var(--amber);opacity:0.8;transform-box:fill-box;transform-origin:right;transition:transform 0.8s var(--ease)}.stat--mem:hover .sv-over rect,.stat--mem:focus-visible .sv-over rect,.stat--mem.is-play .sv-over rect{transform:scaleX(0.3)}.sv-srv rect{fill:rgba(32,128,192,0.35);stroke:var(--electric);stroke-width:1.5;transition:transform 0.8s var(--ease),opacity 0.6s}.stat--srv:hover .sv-srv rect:nth-child(4),.stat--srv:focus-visible .sv-srv rect:nth-child(4),.stat--srv.is-play .sv-srv rect:nth-child(4){transform:translateX(-76px);opacity:0}.stat--srv:hover .sv-srv rect:nth-child(5),.stat--srv:focus-visible .sv-srv rect:nth-child(5),.stat--srv.is-play .sv-srv rect:nth-child(5){transform:translateX(-76px);opacity:0}.stat--srv:hover .sv-srv rect:nth-child(-n+3),.stat--srv:focus-visible .sv-srv rect:nth-child(-n+3),.stat--srv.is-play .sv-srv rect:nth-child(-n+3){fill:rgba(82,208,226,0.5);stroke:var(--cyan)}.sv-host{fill:none;stroke:rgba(255,255,255,0.25);stroke-width:1.5}.sv-blk rect{fill:var(--electric);transition:transform 0.6s var(--ease),opacity 0.5s,fill 0.4s}.sv-blk rect:nth-child(n+3){opacity:0;transform:translateY(-30px)}.sv-blk rect:nth-child(4){transition-delay:0.08s}.sv-blk rect:nth-child(5){transition-delay:0.16s}.sv-blk rect:nth-child(6){transition-delay:0.24s}.stat--den:hover .sv-blk rect,.stat--den:focus-visible .sv-blk rect,.stat--den.is-play .sv-blk rect{opacity:1;transform:none;fill:var(--cyan)}.cell__note{margin-top:48px;padding-top:22px;border-top:1px solid var(--line-d);font-size:14.5px;color:var(--on-dark-2);max-width:860px}.rollout{background:var(--paper)}.rollout .head-split{align-items:last baseline}.steps-wrap{position:relative;margin-inline:-20px}.steps__segs{position:absolute;inset:0;z-index:0;pointer-events:none}.steps__seg{position:absolute;display:none;background:var(--paper-2);transition:background-color 0.3s}.js .steps__seg{display:block}.steps__seg i{display:block;width:100%;height:100%;background:var(--electric);transform-origin:0 0;transition:background-color 0.3s}.steps__seg[data-axis="x"] i{transform:scaleX(var(--d,0))}.steps__seg[data-axis="y"] i{transform:scaleY(var(--d,0))}.steps__seg.is-hot{background:rgba(82,208,226,0.4)}.steps__seg.is-hot i{background:var(--cyan)}.steps{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.rs{position:relative;padding:20px;border-radius:var(--r-lg);transition:background-color 0.3s,transform 0.4s var(--ease)}.rs:hover{background:rgba(32,128,192,0.08);transform:translateY(-4px)}.rs__n{position:relative;z-index:1;display:grid;place-items:center;width:56px;height:56px;margin-bottom:22px;border-radius:50%;background:var(--white);border:2px solid var(--electric);font:600 15px/1 var(--f-m);color:var(--blue);transition:background-color 0.35s,color 0.35s}.rs.is-reached .rs__n,.rs:hover .rs__n{background:var(--blue);border-color:var(--blue);color:var(--white)}.rs.is-reached .rs__n{animation:pop 0.45s var(--ease)}@keyframes pop{50%{transform:scale(1.14)}}.rs h3{font-size:22px;margin-bottom:8px}.rs p{margin-bottom:14px}.rs__get{font:500 13px/1.5 var(--f-m);color:var(--muted)}.rs__get span{display:block;margin-bottom:4px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--electric)}.contact__grid{display:grid;grid-template-columns:1.35fr 0.9fr;gap:48px;align-items:start}.contact__main .h2{margin-bottom:16px}.contact__intro{max-width:620px;margin-bottom:32px;font-size:17px}.form,.form-done{padding:36px;border-radius:var(--r-lg);background:var(--white);color:var(--body)}.form__status{font-size:15px;color:var(--bad);margin-bottom:14px}.form__status:empty{display:none}.form__status.is-ok{color:var(--ok)}.form__row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.fl{display:flex;flex-direction:column;gap:7px;margin-bottom:18px}.fl label{font-weight:600;font-size:14px;color:var(--ink)}.fl label span{color:var(--bad)}.fl input,.fl select,.fl textarea{width:100%;min-height:50px;padding:12px 14px;border-radius:6px;border:1px solid #c8d3e4;background:var(--paper);color:var(--ink);font-size:16px;transition:border-color 0.2s,box-shadow 0.2s,background-color 0.2s}.fl textarea{resize:vertical;min-height:130px;line-height:1.55}.fl select{appearance:none;padding-right:42px;background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2306142f' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3C/svg%3E") right 12px center / 20px no-repeat}.fl input:focus,.fl select:focus,.fl textarea:focus{outline:none;border-color:var(--electric);background-color:var(--white);box-shadow:0 0 0 4px rgba(32,128,192,0.18)}.fl ::placeholder{color:#737d90}.fl.is-bad input,.fl.is-bad textarea{border-color:var(--bad)}.fl.is-ok input,.fl.is-ok textarea{border-color:#2f9e6e}.fl__err{font-size:13.5px;color:var(--bad)}.fl__err:empty{display:none}.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.form .btn{--sw:var(--navy);--sw-fg:var(--white);margin-top:4px}.form__fine{margin-top:14px;font-size:13.5px;color:var(--muted)}.form-done{text-align:center}.form-done[hidden]{display:none}.form-done__ic{display:inline-grid;place-items:center;width:64px;height:64px;border-radius:50%;background:#e2f5ea;color:var(--ok);font-size:30px;margin-bottom:16px}.form-done__ic .ic{stroke-width:2.6}.form-done h3{font-size:26px;color:var(--ink) !important;margin-bottom:10px}.form-done p{margin-bottom:18px}.form-done .link{color:var(--electric)}.cstack{display:flex;flex-direction:column;gap:16px;padding-top:6px}.ccard{padding:24px;border-radius:var(--r-lg);background:var(--navy-2);border:1px solid var(--line-d);color:var(--on-dark);transition:transform 0.4s var(--ease),box-shadow 0.35s,border-color 0.35s}.ccard--mail{display:flex;align-items:center;gap:16px;width:100%;text-align:left}.ccard--mail:hover,.ccard--mail:focus-visible{transform:translateY(-4px);border-color:var(--electric);box-shadow:0 0 0 1px var(--electric),0 22px 44px -22px rgba(82,208,226,0.4)}.ccard__ic{display:grid;place-items:center;flex-shrink:0;width:52px;height:52px;border-radius:var(--r);background:var(--cyan);color:var(--navy);font-size:24px}.ccard__txt{flex:1;min-width:0}.ccard__k{display:block;font-size:13.5px;color:var(--on-dark-2)}.ccard__v{display:block;font:700 18px/1.3 var(--f-d);color:var(--white);overflow-wrap:anywhere}.ccard__copy{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border-radius:4px;border:1px solid var(--line-d);font:600 12px/1 var(--f-m);color:var(--cyan)}.ccard__h{font-size:19px;margin-bottom:14px}.next{counter-reset:n;display:grid;gap:12px}.next li{counter-increment:n;display:flex;gap:12px;color:rgba(255,255,255,0.88)}.next li::before{content:counter(n,decimal-leading-zero);flex-shrink:0;font:600 12px/1.9 var(--f-m);color:var(--cyan)}.ccard--soft{background:transparent;border-style:dashed;border-color:rgba(255,255,255,0.25)}.toast{position:fixed;left:50%;bottom:32px;z-index:150;padding:12px 18px;border-radius:var(--r);background:var(--cyan);color:var(--navy);font-weight:600;box-shadow:0 16px 40px -12px rgba(0,0,0,0.45);transform:translate(-50%,calc(100% + 48px));visibility:hidden;transition:transform 0.4s var(--ease),visibility 0.4s;pointer-events:none}.toast.is-on{transform:translate(-50%,0);visibility:visible}.team{background:var(--white)}.team__grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:start}.team__copy .h2{margin-bottom:16px}.people{display:grid;grid-template-columns:1fr 1fr;gap:28px}.person--low{margin-top:80px}.person__card{position:relative;aspect-ratio:4 / 5;border-radius:var(--r-lg);overflow:hidden;background:var(--navy);cursor:pointer;outline-offset:4px}.person__card img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.08) brightness(1.05);transition:filter 0.5s,transform 0.6s var(--ease)}.person__card::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(160deg,var(--electric),var(--blue));mix-blend-mode:multiply;transition:opacity 0.5s;pointer-events:none}.person__card:hover img,.person__card:focus-within img,.person__card.is-open img{filter:none;transform:scale(1.04)}.person__card:hover::before,.person__card:focus-within::before,.person__card.is-open::before{opacity:0}.person__bio{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:20px;background:rgba(6,20,47,0.92);color:var(--white);transform:translateY(101%);transition:transform 0.45s var(--ease)}.person__card:hover .person__bio,.person__card:focus-within .person__bio,.person__card.is-open .person__bio{transform:none}.person__bio p{font-size:14.5px;margin-bottom:12px}.person__bio a{display:inline-flex;align-items:center;gap:8px;color:var(--cyan);font-weight:600;font-size:14.5px}.person__bio a:hover{text-decoration:underline;text-underline-offset:3px}.person__name{margin-top:18px;font-size:24px}.person__role{color:var(--electric);font-weight:600}.faq{background:var(--paper)}.faq__grid{display:grid;grid-template-columns:0.8fr 1.2fr;gap:56px;align-items:start}.faq__side{position:sticky;top:100px}.faq__side .h2{margin-bottom:26px}.search{position:relative}.search .ic{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:20px;color:var(--muted)}.search input{width:100%;height:54px;padding:0 16px 0 46px;border-radius:var(--r);border:1px solid #c8d3e4;background:var(--white);font-size:16px;color:var(--ink);transition:border-color 0.2s,box-shadow 0.2s}.search input:focus{outline:none;border-color:var(--electric);box-shadow:0 0 0 4px rgba(32,128,192,0.18)}.faq__count{margin-top:12px;font:500 13px/1 var(--f-m);color:var(--muted)}.faq__list{border-top:1px solid var(--line)}.qa{border-bottom:1px solid var(--line)}.qa[hidden]{display:none}.qa h3{font-size:inherit}.qa button{display:flex;justify-content:space-between;align-items:center;gap:20px;width:100%;padding:22px 0;text-align:left;font:600 19px/1.35 var(--f-d);color:var(--ink);transition:color 0.25s}.qa button:hover{color:var(--blue)}.qa button .ic{box-sizing:content-box;padding:8px;flex-shrink:0;border-radius:6px;background:var(--white);border:1px solid var(--line);font-size:16px;color:var(--blue);transition:transform 0.35s var(--ease),background-color 0.25s,color 0.25s}.qa button[aria-expanded="true"] .ic{transform:rotate(45deg);background:var(--blue);color:var(--white)}.qa__a{padding:0 0 22px;max-width:64ch;animation:panel-in 0.35s var(--ease)}.qa__a a{color:var(--electric);text-decoration:underline;text-underline-offset:3px}.faq__empty{padding:24px 0}.faq__empty a{color:var(--electric);text-decoration:underline}.insights{background:var(--white)}.drag{overflow-x:auto;scrollbar-width:none;padding:8px max(20px,calc((100vw - 1280px) / 2)) 24px;cursor:grab;outline-offset:-4px}.drag::-webkit-scrollbar{display:none}.drag.is-dragging{cursor:grabbing}.drag.is-dragging a{pointer-events:none}.drag__track{display:flex;gap:24px;width:max-content}.post{width:400px}.post>a{display:flex;flex-direction:column;height:100%;padding:14px 14px 24px;border-radius:var(--r-lg);background:var(--paper);border:1px solid var(--line);user-select:none;transition:transform 0.4s var(--ease),box-shadow 0.35s,border-color 0.35s}.post>a:hover,.post>a:focus-visible{transform:translateY(-5px);box-shadow:var(--glow);border-color:var(--electric)}.post__img{position:relative;display:block;aspect-ratio:16 / 9;margin-bottom:18px;border-radius:6px;overflow:hidden;background:var(--paper-2)}.post__img img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s var(--ease);-webkit-user-drag:none}.post>a:hover .post__img img{transform:scale(1.06)}.post__tag{position:absolute;top:12px;left:12px;padding:5px 9px;border-radius:4px;background:var(--cyan);color:var(--navy);font:600 11px/1 var(--f-m);letter-spacing:0.08em;text-transform:uppercase;transform:translateX(calc(-100% - 16px));transition:transform 0.45s var(--ease)}.post>a:hover .post__tag,.post>a:focus-visible .post__tag{transform:none}.post__meta{padding:0 8px;font:500 12.5px/1 var(--f-m);color:var(--electric)}.post__t{display:block;padding:0 8px;margin:12px 0 16px;font:700 20px/1.3 var(--f-d);color:var(--ink)}.post__more{margin-top:auto;padding:0 8px;display:inline-flex;align-items:center;gap:8px;color:var(--electric);font-weight:600}.post__more .ic{transition:transform 0.35s var(--ease)}.post>a:hover .post__more .ic{transform:translate(3px,-3px)}.post--all{width:300px}.post--all>a{justify-content:flex-end;padding:28px;background:var(--navy);border-color:var(--navy);color:var(--on-dark)}.post--all .post__t{color:var(--white);font-size:28px;padding:0;margin:0 0 10px}.post--all .post__more{padding:0;margin-top:22px;color:var(--cyan)}.close{background:var(--paper);padding:0 0 var(--sec)}.close__box{position:relative;isolation:isolate;display:grid;place-items:center;min-height:460px;padding:80px 28px;border-radius:var(--r-lg);overflow:hidden;text-align:center;background:radial-gradient(ellipse at 50% 120%,rgba(32,128,192,0.45),transparent 60%),var(--navy)}.close__net{position:absolute;inset:0;width:100%;height:100%;z-index:-1}.close__copy{max-width:860px}.close__h{font-size:clamp(34px,4.8vw,64px);letter-spacing:-0.03em;line-height:1.03;color:var(--white);text-wrap:balance;margin-bottom:34px}.close__acts{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:18px 30px}.close__vm{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 6px;color:var(--on-dark)}.close__vm span{color:var(--white);font-weight:600}.close__vm:hover{color:var(--cyan)}.close__vm:hover span{color:var(--cyan)}.ft{position:relative;overflow:hidden;background:var(--navy);color:var(--on-dark);padding-top:96px}.ft__mark{position:absolute;left:50%;bottom:-0.16em;transform:translateX(-50%);margin:0;font:800 clamp(120px,24vw,380px)/1 var(--f-d);letter-spacing:-0.05em;color:rgba(255,255,255,0.035);white-space:nowrap;pointer-events:none;user-select:none}.ft__grid{position:relative;display:grid;grid-template-columns:1.4fr 0.8fr 0.8fr 1.3fr;gap:48px;padding-bottom:72px}.ft__brand .logo{margin-bottom:22px}.ft__brand p{max-width:360px;margin-bottom:22px}.ft__h{font-size:17px;color:var(--white);margin-bottom:18px}.ft__col li + li{margin-top:11px}.ft__col a{overflow-wrap:anywhere;transition:color 0.25s}.ft__col a:hover{color:var(--cyan)}.ft__posts a{display:block;color:var(--white);font:600 15.5px/1.45 var(--f-d)}.ft__posts time{display:block;margin-top:6px;font:500 12.5px/1 var(--f-m);color:var(--cyan)}.ft__posts li + li{margin-top:18px;padding-top:18px;border-top:1px solid var(--line-d)}.ft__bar{position:relative;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:24px 0 28px;border-top:1px solid var(--line-d);font-size:14px;color:var(--on-dark-2)}.ft__bar a{display:inline-flex;align-items:center;gap:6px;color:var(--cyan);font-weight:600}.ft__bar a:hover{text-decoration:underline;text-underline-offset:3px}.totop{position:fixed;right:calc(24px + env(safe-area-inset-right));bottom:calc(24px + env(safe-area-inset-bottom));z-index:90;display:grid;place-items:center;width:54px;height:54px;border-radius:50%;background:var(--navy);color:var(--white);font-size:20px;box-shadow:0 12px 30px -10px rgba(6,20,47,0.6);opacity:0;visibility:hidden;transform:translateY(14px);transition:opacity 0.3s,transform 0.35s var(--ease),visibility 0.3s,background-color 0.25s}.totop.is-on{opacity:1;visibility:visible;transform:none}.totop:hover{background:var(--blue)}.totop .ic{stroke-width:2.4;transition:transform 0.3s var(--ease)}.totop:hover .ic{transform:translateY(-3px)}.totop__ring{position:absolute;inset:1px;width:52px;height:52px;transform:rotate(-90deg);fill:none;stroke-width:2.5}.totop__ring circle{stroke:rgba(255,255,255,0.15)}.totop__ring .totop__bar{stroke:var(--cyan);stroke-dasharray:100;stroke-dashoffset:var(--p,100)}.bento>*,.about__grid>*,.xp>*,.why__grid>*,.vs__grid>*,.calc__grid>*,.ready__grid>*,.contact__grid>*,.team__grid>*,.faq__grid>*,.hero__grid>*,.rng>*,.kpis>*,.plan__res>*{min-width:0}.rv-on .rv{transition:opacity 0.8s var(--ease),transform 0.8s var(--ease);transition-delay:var(--d,0s)}.rv-on .rv:not(.is-in){opacity:0;transform:translateY(28px)}@media (max-width:1199px){.nav{display:none}.xp{grid-template-columns:280px 1fr}.xp__panel{grid-template-columns:1fr;min-height:0}.xp__viz{max-width:360px}.ft__grid{grid-template-columns:1fr 1fr}.stats{gap:18px}}@media (max-width:991px){:root{--sec:88px;--hd:72px}.hd__mail{display:none}.hero{min-height:0;padding-bottom:100px}.hero__grid{grid-template-columns:1fr;gap:36px}.map{justify-self:center;max-width:460px}.head-split{grid-template-columns:1fr;gap:14px}.head-split__p{justify-self:start}.tile--mods,.tile--ai,.tile--vm{grid-column:1 / -1;grid-row:auto}.about__grid,.why__grid,.vs__grid,.ready__grid,.faq__grid,.team__grid,.contact__grid,.calc__grid{grid-template-columns:1fr;gap:40px}.xp{grid-template-columns:1fr}.xp__list{grid-auto-flow:column;grid-auto-columns:max-content;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}.xp__tab{border-left:0;border-bottom:2px solid transparent}.xp__tab[aria-selected="true"]{border-radius:var(--r) var(--r) 0 0;border-bottom-color:var(--cyan)}.why__pin{position:relative;top:0}.arch[data-active] .a-l:not(.a-layer){opacity:1}.step{min-height:0;padding:22px 0 22px 22px;opacity:1}.vs__side,.score,.faq__side{position:static}.envs{flex-direction:column;height:auto}.env{flex:none}.env:not(.is-open) .env__art{display:none}.env.is-open .env__art{position:static;width:120px;margin:18px 0}.env__body{margin-top:0}.pick{grid-template-columns:1fr}.plan__res{grid-template-columns:1fr;gap:22px}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){margin-top:40px}.stat:nth-child(3){margin-top:0;grid-column:1 / -1;max-width:50%}.steps{grid-template-columns:1fr 1fr;row-gap:24px}.tl__name{font-size:16px;min-height:3.6em}.ovl__in{grid-template-columns:1fr}.person--low{margin-top:48px}}@media (max-width:767px){:root{--sec:72px}.hd__top{display:none}.hero{padding-top:calc(var(--hd) + 36px)}.hero__sub{font-size:17px}.hero__foot{bottom:20px}.tl__stages{grid-template-columns:1fr;gap:4px}.tl__stage{display:grid;grid-template-columns:28px auto 1fr;grid-template-areas:"dot n name" "dot n badge";align-items:center;justify-items:start;gap:4px 12px;padding:12px 12px 12px 0;text-align:left}.tl__dot{grid-area:dot;margin:0}.tl__n{grid-area:n}.tl__name{grid-area:name;min-height:0;justify-content:flex-start;font-size:17px}.tl__stage .badge{grid-area:badge}.tl__stage[aria-selected="true"]{background:var(--paper)}.tl__ind{display:none}.tl__panel{grid-template-columns:1fr;gap:18px;padding:22px}.chk{grid-template-columns:1fr}.steps-wrap{margin-inline:0}.rs{display:grid;grid-template-columns:56px minmax(0,1fr);column-gap:16px;padding:14px 12px 14px 0}.rs__n{grid-row:1 / span 5;margin:0}.rs>:not(.rs__n){grid-column:2;justify-self:start}.env__body dl{grid-template-columns:1fr}.env__body dl>dt:nth-of-type(2),.env__body dl>dd:nth-of-type(2){grid-column:auto;grid-row:auto}.vs__table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.vs__table,.vs__table tbody,.vs__table tr,.vs__table th,.vs__table td{display:block;width:100%}.vs__table tbody tr{margin-bottom:12px;border-radius:var(--r);background:var(--navy-2);overflow:hidden}.vs__table th,.vs__table td{border-bottom:0;padding:12px 16px}.vs__table tbody th{width:100%;padding-top:16px}.vs__table td::before{content:attr(data-l);display:block;margin-bottom:4px;font:600 11px/1 var(--f-m);letter-spacing:0.08em;text-transform:uppercase;color:var(--on-dark-2)}.vs__table td:last-child::before{color:var(--cyan)}.kpis{grid-template-columns:1fr 1fr}.kpi:last-child{grid-column:1 / -1}.qs legend{float:none;width:100%;margin-bottom:10px}.qs fieldset{display:block}.yn{margin-left:0}.stats{grid-template-columns:1fr}.stat:nth-child(n){margin-top:0;max-width:none;grid-column:auto}.steps{grid-template-columns:1fr}.form__row{grid-template-columns:1fr;gap:0}.people{gap:18px}.person--low{margin-top:36px}.post{width:82vw}.post--all{width:70vw}.ft__grid{grid-template-columns:1fr;gap:36px}.ovl__nav ol{columns:1}}@media (max-width:575px){.wrap{width:calc(100% - 32px)}.btn{white-space:normal;text-align:left;line-height:1.25;padding-block:12px}.hd__cta{display:none}.logo img{height:24px}.menu-btn__t{display:none}.tile,.calc__in,.calc__out,.form,.form-done,.plan,.xp__panel,.ba{padding:22px}.map__node text{font-size:15px}.people{grid-template-columns:1fr}.person--low{margin-top:0}.ccard--mail{flex-wrap:wrap}}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.001ms !important;animation-iteration-count:1 !important;animation-delay:0s !important;transition-duration:0.001ms !important;transition-delay:0s !important}.map__pulses,.map__halo{display:none}.mq__track{width:auto;flex-wrap:wrap;justify-content:center}.mq ul[aria-hidden],.mq__row--rev .mq__track ul + ul{display:none}.mq ul{flex-wrap:wrap;justify-content:center;row-gap:6px}.viz-net .v-links path,.viz-mon .v-line,.viz-acc .v-chk path{stroke-dashoffset:0}}</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-arrow-d" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-chev-d" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5.5v13M15 5.5v13"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-compute" viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="1.5"/><rect x="10" y="10" width="4" height="4" rx=".5"/><path d="M10 3v3.5M14 3v3.5M10 17.5V21M14 17.5V21M3 10h3.5M3 14h3.5M17.5 10H21M17.5 14H21"/></symbol>
+  <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="19" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.8 14.1l-4.3 3.4M13.2 14.1l4.3 3.4"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12h4l2.5-6 5 12 2.5-6h4"/></symbol>
+  <symbol id="i-storage" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="7" ry="2.5"/><path d="M5 5.5v13c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-13M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 19 6v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9z"/><path d="m18.5 14.5.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2M10 21v-3h4v3"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="1.5"/><rect x="3" y="13" width="18" height="7" rx="1.5"/><path d="M7 7.5h.01M7 16.5h.01M11 7.5h6M11 16.5h6"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol>
+  <symbol id="b-x" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.78zm-1.08 16.18h1.7L7.4 4.73H5.58z"/></symbol>
+  <symbol id="b-in" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zm6.5 0h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5c0-1.2 0-2.75-1.68-2.75s-1.94 1.3-1.94 2.65V21h-4z"/></symbol>
+  <symbol id="b-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+</svg>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+<!-- ================= HEADER ================= -->
+<header class="hd" id="hd">
+  <div class="hd__top">
+    <div class="wrap hd__top-in">
+      <a class="hd__news" href="#roadmap"><span class="dot dot--live"></span>Synaptix™ core platform is available now<svg class="ic"><use href="#i-arrow"/></svg></a>
+      <div class="hd__top-r">
+        <a class="hd__mail" href="mailto:support@moiraicloud.ai"><svg class="ic"><use href="#i-mail"/></svg>support@moiraicloud.ai</a>
+        <ul class="soc">
+          <li><a href="https://x.com/MoirAICloud" target="_blank" rel="noopener" aria-label="MoirAI Cloud on X"><svg class="ic"><use href="#b-x"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/company/moirai-cloud/about/" target="_blank" rel="noopener" aria-label="MoirAI Cloud on LinkedIn"><svg class="ic"><use href="#b-in"/></svg></a></li>
+          <li><a href="https://www.instagram.com/moirai.cloud/" target="_blank" rel="noopener" aria-label="MoirAI Cloud on Instagram"><svg class="ic"><use href="#b-ig"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="hd__bar">
+    <div class="wrap hd__bar-in">
+      <a class="logo" href="#top" aria-label="MoirAI Cloud, back to top">
+        <img src="assets/images/logo-h41.png" srcset="assets/images/logo-h41.png 1x, assets/images/logo-h82.png 2x" width="234" height="41" alt="MoirAI Cloud">
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul class="nav__list">
+          <li class="nav__item has-mega">
+            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-platform">Platform<svg class="ic"><use href="#i-chev-d"/></svg></button>
+            <div class="mega" id="mega-platform">
+              <ul class="mega__grid">
+                <li><a href="#platform"><svg class="ic"><use href="#i-layers"/></svg><span><strong>Platform modules</strong>Six parts of one console, explained</span></a></li>
+                <li><a href="#why"><svg class="ic"><use href="#i-spark"/></svg><span><strong>Why Synaptix™</strong>How the operating layer fits together</span></a></li>
+                <li><a href="#roadmap"><svg class="ic"><use href="#i-route"/></svg><span><strong>Roadmap</strong>What ships today and what comes next</span></a></li>
+                <li><a href="#cell"><svg class="ic"><use href="#i-server"/></svg><span><strong>Synaptik™ Cell</strong>More useful compute per server</span></a></li>
+                <li><a href="#rollout"><svg class="ic"><use href="#i-list"/></svg><span><strong>How a rollout works</strong>Four steps from first call to migration</span></a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#cell">Synaptik™ Cell</a></li>
+          <li class="nav__item has-mega">
+            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-solutions">Solutions<svg class="ic"><use href="#i-chev-d"/></svg></button>
+            <div class="mega" id="mega-solutions">
+              <ul class="mega__grid">
+                <li><a href="#solutions"><svg class="ic"><use href="#i-building"/></svg><span><strong>By environment</strong>Data centers, enterprises, regulated, edge</span></a></li>
+                <li><a href="#start"><svg class="ic"><use href="#i-route"/></svg><span><strong>Starting points</strong>Pick the situation closest to yours</span></a></li>
+                <li><a href="#vmware"><svg class="ic"><use href="#i-layers"/></svg><span><strong>VMware vs Synaptix™</strong>Side by side, row by row</span></a></li>
+                <li><a href="#calculator"><svg class="ic"><use href="#i-calc"/></svg><span><strong>Savings calculator</strong>Rough numbers for your estate</span></a></li>
+                <li><a href="#readiness"><svg class="ic"><use href="#i-check"/></svg><span><strong>VMware readiness check</strong>Six questions, scored as you go</span></a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#roadmap">Roadmap</a></li>
+          <li class="nav__item"><a class="nav__link" href="#team">Team</a></li>
+          <li class="nav__item"><a class="nav__link" href="#insights">Insights</a></li>
+        </ul>
+      </nav>
+      <div class="hd__acts">
+        <a class="btn btn--primary btn--sm hd__cta" href="#contact" data-magnet><span>Talk to Our Team</span></a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="ovl" data-ovl-open><span class="menu-btn__t">Menu</span><span class="menu-btn__lines" aria-hidden="true"><i></i><i></i></span></button>
+      </div>
+    </div>
+    <div class="hd__progress" aria-hidden="true"><span></span></div>
+  </div>
+</header>
+
+<!-- Full-screen numbered menu (also the mobile menu) -->
+<div class="ovl" id="ovl" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+  <div class="ovl__in wrap">
+    <div class="ovl__top">
+      <img class="ovl__logo" src="assets/images/logo-h41.png" srcset="assets/images/logo-h41.png 1x, assets/images/logo-h82.png 2x" width="234" height="41" alt="MoirAI Cloud">
+      <button class="ovl__close" type="button" data-ovl-close aria-label="Close menu"><svg class="ic"><use href="#i-close"/></svg></button>
+    </div>
+    <nav class="ovl__nav" aria-label="All sections">
+      <ol>
+        <li><a href="#about"><span>01</span>About MoirAI Cloud</a></li>
+        <li><a href="#platform"><span>02</span>Platform</a></li>
+        <li><a href="#why"><span>03</span>Why Synaptix™</a></li>
+        <li><a href="#roadmap"><span>04</span>Roadmap</a></li>
+        <li><a href="#solutions"><span>05</span>Environments</a></li>
+        <li><a href="#start"><span>06</span>Starting points</a></li>
+        <li><a href="#vmware"><span>07</span>VMware vs Synaptix™</a></li>
+        <li><a href="#calculator"><span>08</span>Calculator</a></li>
+        <li><a href="#readiness"><span>09</span>Readiness check</a></li>
+        <li><a href="#cell"><span>10</span>Synaptik™ Cell</a></li>
+        <li><a href="#rollout"><span>11</span>How a rollout works</a></li>
+        <li><a href="#contact"><span>12</span>Contact</a></li>
+        <li><a href="#team"><span>13</span>Founders</a></li>
+        <li><a href="#faq"><span>14</span>FAQ</a></li>
+        <li><a href="#insights"><span>15</span>Insights</a></li>
+      </ol>
+    </nav>
+    <div class="ovl__side">
+      <p class="ovl__k">Talk to the team</p>
+      <a class="ovl__mail" href="mailto:support@moiraicloud.ai">support@moiraicloud.ai</a>
+      <a class="btn btn--primary" href="#contact" data-magnet><span>Talk to Our Team</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      <ul class="soc soc--lg">
+        <li><a href="https://x.com/MoirAICloud" target="_blank" rel="noopener" aria-label="MoirAI Cloud on X"><svg class="ic"><use href="#b-x"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/company/moirai-cloud/about/" target="_blank" rel="noopener" aria-label="MoirAI Cloud on LinkedIn"><svg class="ic"><use href="#b-in"/></svg></a></li>
+        <li><a href="https://www.instagram.com/moirai.cloud/" target="_blank" rel="noopener" aria-label="MoirAI Cloud on Instagram"><svg class="ic"><use href="#b-ig"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<main id="main" tabindex="-1">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="assets/images/hero-poster.webp" aria-hidden="true" tabindex="-1" disablepictureinpicture>
+    <source src="assets/video/moirai-hero-sm.mp4" type="video/mp4" media="(max-width: 767px)">
+    <source src="assets/video/moirai-hero.webm" type="video/webm">
+    <source src="assets/video/moirai-hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero__shade" aria-hidden="true"></div>
+
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="label label--dark">AI infrastructure operations</p>
+      <h1 class="hero__title" id="hero-title">AI-Assisted <span>Infrastructure</span></h1>
+      <p class="hero__sub">Synaptix™ runs compute, networking, storage and monitoring from one console. Its built-in AI traces an issue to its cause and suggests a fix. Your team decides what runs.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="#contact" data-magnet><span>Talk to Our Team</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--ghost" href="#why" data-magnet><span>See how it works</span><svg class="ic"><use href="#i-arrow-d"/></svg></a>
+      </div>
+      <ul class="proof" aria-label="At a glance">
+        <li><span class="proof__n" aria-hidden="true">01</span><span class="proof__row"><svg class="ic"><use href="#i-layers"/></svg><span>5 core modules, one console</span></span></li>
+        <li><span class="proof__n" aria-hidden="true">02</span><span class="proof__row"><svg class="ic"><use href="#i-server"/></svg><span>Runs on hardware you already own</span></span></li>
+        <li><span class="proof__n" aria-hidden="true">03</span><span class="proof__row"><svg class="ic"><use href="#i-route"/></svg><span>Built for the move off VMware</span></span></li>
+      </ul>
+    </div>
+
+    <figure class="map" aria-labelledby="map-cap">
+      <figcaption class="sr" id="map-cap">Operating map: Synaptix at the center, connected to six parts of the platform. Select a part to read what it does.</figcaption>
+      <svg class="map__svg" viewBox="0 0 520 520" role="group" aria-label="Synaptix operating map">
+        <defs>
+          <radialGradient id="g-core" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#2080c0"/><stop offset="1" stop-color="#004aae"/></radialGradient>
+        </defs>
+        <g class="map__ring" fill="none"><circle cx="260" cy="260" r="190"/><circle cx="260" cy="260" r="120"/></g>
+        <g class="map__lines" fill="none">
+          <path data-line="ai" d="M260 260V70"/><path data-line="compute" d="M260 260 424.5 165"/><path data-line="network" d="M260 260 424.5 355"/>
+          <path data-line="storage" d="M260 260V450"/><path data-line="monitor" d="M260 260 95.5 355"/><path data-line="access" d="M260 260 95.5 165"/>
+        </g>
+        <g class="map__pulses" fill="none">
+          <path d="M260 260V70"/><path d="M260 260 424.5 165"/><path d="M260 260 424.5 355"/><path d="M260 260V450"/><path d="M260 260 95.5 355"/><path d="M260 260 95.5 165"/>
+        </g>
+        <g class="map__core"><circle cx="260" cy="260" r="62" fill="url(#g-core)"/><circle class="map__halo" cx="260" cy="260" r="62"/><text x="260" y="256" text-anchor="middle">Synaptix™</text><text class="map__core-sub" x="260" y="276" text-anchor="middle">operating layer</text></g>
+        <g class="map__node" data-node="ai" tabindex="0" role="button" aria-label="AI layer" transform="translate(260 70)"><circle r="36"/><use href="#i-spark" x="-14" y="-14" width="28" height="28"/><text y="58" text-anchor="middle">AI layer</text></g>
+        <g class="map__node" data-node="compute" tabindex="0" role="button" aria-label="Compute" transform="translate(424.5 165)"><circle r="36"/><use href="#i-compute" x="-14" y="-14" width="28" height="28"/><text y="58" text-anchor="middle">Compute</text></g>
+        <g class="map__node" data-node="network" tabindex="0" role="button" aria-label="Networking" transform="translate(424.5 355)"><circle r="36"/><use href="#i-network" x="-14" y="-14" width="28" height="28"/><text y="58" text-anchor="middle">Networking</text></g>
+        <g class="map__node" data-node="storage" tabindex="0" role="button" aria-label="Storage" transform="translate(260 450)"><circle r="36"/><use href="#i-storage" x="-14" y="-14" width="28" height="28"/><text y="-48" text-anchor="middle">Storage</text></g>
+        <g class="map__node" data-node="monitor" tabindex="0" role="button" aria-label="Monitoring" transform="translate(95.5 355)"><circle r="36"/><use href="#i-pulse" x="-14" y="-14" width="28" height="28"/><text y="58" text-anchor="middle">Monitoring</text></g>
+        <g class="map__node" data-node="access" tabindex="0" role="button" aria-label="Access and policy" transform="translate(95.5 165)"><circle r="36"/><use href="#i-shield" x="-14" y="-14" width="28" height="28"/><text y="58" text-anchor="middle">Access &amp; policy</text></g>
+      </svg>
+      <div class="map__panel" aria-live="polite">
+        <p class="map__k" data-map-k>Operating map</p>
+        <p class="map__t" data-map-t>Hover or tap a part of the map to see what it does.</p>
+      </div>
+    </figure>
+  </div>
+
+  <div class="wrap hero__foot">
+    <a class="cue" href="#overview"><span class="cue__track" aria-hidden="true"><i></i></span>Scroll to explore</a>
+    <button class="vid-btn" type="button" data-video-toggle aria-label="Pause background video"><svg class="ic ic-pause"><use href="#i-pause"/></svg><svg class="ic ic-play"><use href="#i-play"/></svg></button>
+  </div>
+</section>
+
+<!-- ================= 1. BENTO ================= -->
+<section class="sec bento-sec" id="overview" aria-label="Platform at a glance">
+  <div class="wrap bento">
+    <article class="tile tile--mods spot rv">
+      <p class="label">The platform</p>
+      <h2 class="tile__h">5 core modules, <br>one console</h2>
+      <p>Each one used to be its own tool. Pick a module to see what it covers.</p>
+      <ul class="mods">
+        <li><button type="button" class="mod-pill" data-explore="compute"><svg class="ic"><use href="#i-compute"/></svg><span>Compute &amp; workloads</span></button></li>
+        <li><button type="button" class="mod-pill" data-explore="network"><svg class="ic"><use href="#i-network"/></svg><span>Networking</span></button></li>
+        <li><button type="button" class="mod-pill" data-explore="storage"><svg class="ic"><use href="#i-storage"/></svg><span>Storage</span></button></li>
+        <li><button type="button" class="mod-pill" data-explore="monitor"><svg class="ic"><use href="#i-pulse"/></svg><span>Monitoring</span></button></li>
+        <li><button type="button" class="mod-pill" data-explore="access"><svg class="ic"><use href="#i-shield"/></svg><span>Access &amp; policy</span></button></li>
+      </ul>
+    </article>
+
+    <article class="tile tile--ai spot rv">
+      <div class="tile__head">
+        <div>
+          <p class="label">AI-assisted operations</p>
+          <h2 class="tile__h">AI that shows its working</h2>
+        </div>
+        <span class="tag-ex">Example, illustrative</span>
+      </div>
+      <div class="console" data-console aria-label="Illustrative console: an alert, its root cause and a suggested fix waiting for approval" role="img">
+        <div class="console__bar"><i></i><i></i><i></i><span>synaptix / ops assistant</span></div>
+        <div class="console__body">
+          <p class="cl cl--alert"><b>ALERT</b><span>14:02 storage-pool-03 latency above threshold on 6 workloads</span></p>
+          <p class="cl cl--cause"><b>CAUSE</b><span>Matches a rebalance job started 13:58 on node-07. It is saturating the storage network.</span></p>
+          <p class="cl cl--fix"><b>FIX</b><span>Pause the rebalance job. Resume it in the 22:00 maintenance window.</span></p>
+          <p class="cl cl--act"><span class="fake-btn fake-btn--go">Approve</span><span class="fake-btn">Dismiss</span><em>Waiting for an operator</em></p>
+          <p class="cl cl--done"><b>DONE</b><span>14:07 Approved by j.ortiz. Rebalance paused. Latency back under threshold at 14:09.</span></p>
+        </div>
+        <div class="console__ctx"><span>Context used</span><i>metrics</i><i>logs</i><i>topology</i><i>change history</i></div>
+      </div>
+    </article>
+
+    <a class="tile tile--vm spot rv" href="#vmware">
+      <p class="label">Modernize virtualization</p>
+      <h2 class="tile__h">A way off legacy virtualization, at your pace</h2>
+      <p>Run on an open infrastructure foundation today, and move workloads across in phases.</p>
+      <svg class="vm-art" viewBox="0 0 300 90" aria-hidden="true"><g fill="none" stroke-width="2"><rect class="vm-art__a" x="4" y="20" width="70" height="50" rx="5"/><rect class="vm-art__b" x="226" y="20" width="70" height="50" rx="5"/><path class="vm-art__p" d="M80 45h140" stroke-dasharray="6 8"/></g><g class="vm-art__blk"><rect x="90" y="38" width="16" height="14" rx="2"/><rect x="140" y="38" width="16" height="14" rx="2"/><rect x="190" y="38" width="16" height="14" rx="2"/></g></svg>
+      <span class="tile__link">Compare with VMware<svg class="ic"><use href="#i-arrow"/></svg></span>
+    </a>
+  </div>
+</section>
+
+<!-- ================= 2. ABOUT: BEFORE / AFTER ================= -->
+<section class="sec about" id="about" aria-labelledby="about-title">
+  <div class="wrap about__grid">
+    <div class="about__copy rv">
+      <p class="label">About MoirAI Cloud</p>
+      <h2 class="h2" id="about-title">We built MoirAI Cloud to make infrastructure simpler to run</h2>
+      <p class="lead">Most teams keep one console for compute, another for the network, a third for storage and a monitoring stack on top. When something breaks, the answer is spread across all four.</p>
+      <p>Synaptix™ puts those jobs in one operating environment. The data you need is already in one place, and the AI working beside your team reads it too.</p>
+      <ul class="ticks">
+        <li><svg class="ic"><use href="#i-check"/></svg>Get more useful compute from the hardware you already own</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Spend less on operational overhead, idle resources and long-term infrastructure cost</li>
+      </ul>
+    </div>
+
+    <div class="ba rv" data-ba data-state="before">
+      <div class="ba__switch" role="group" aria-label="Show the before or after picture">
+        <button type="button" aria-pressed="true" data-ba-set="before">Before</button>
+        <button type="button" aria-pressed="false" data-ba-set="after">After Synaptix™</button>
+        <span class="ba__thumb" aria-hidden="true"></span>
+      </div>
+      <svg class="ba__svg" viewBox="0 0 560 400" role="img" aria-labelledby="ba-cap">
+        <g class="ba__frame"><rect x="70" y="56" width="420" height="300" rx="8"/><rect class="ba__frame-bar" x="70" y="56" width="420" height="34" rx="8"/><text x="92" y="78">Synaptix™ console</text><circle cx="462" cy="73" r="5"/></g>
+        <g class="ba__tangle" fill="none">
+          <path d="M150 90C300 40 250 260 420 300"/><path d="M420 90C280 160 330 300 140 310"/><path d="M140 110C120 220 400 120 410 290"/><path d="M430 110C470 200 150 200 160 300"/><path d="M200 70C260 200 300 200 360 330"/>
+        </g>
+        <g class="ba__clean" fill="none"><path d="M260 152h40M260 282h40M175 184v66M385 184v66"/></g>
+        <g class="ba__tool ba__tool--c"><rect width="170" height="64" rx="6"/><use href="#i-compute" x="14" y="20" width="24" height="24"/><text x="48" y="30">Compute console</text><text class="ba__sub" x="48" y="48">login #1</text></g>
+        <g class="ba__tool ba__tool--n"><rect width="170" height="64" rx="6"/><use href="#i-network" x="14" y="20" width="24" height="24"/><text x="48" y="30">Network tool</text><text class="ba__sub" x="48" y="48">login #2</text></g>
+        <g class="ba__tool ba__tool--s"><rect width="170" height="64" rx="6"/><use href="#i-storage" x="14" y="20" width="24" height="24"/><text x="48" y="30">Storage tool</text><text class="ba__sub" x="48" y="48">login #3</text></g>
+        <g class="ba__tool ba__tool--m"><rect width="170" height="64" rx="6"/><use href="#i-pulse" x="14" y="20" width="24" height="24"/><text x="48" y="30">Monitoring stack</text><text class="ba__sub" x="48" y="48">login #4</text></g>
+      </svg>
+      <p class="ba__cap" id="ba-cap" aria-live="polite" data-ba-cap>Four tools, four logins and four versions of the truth.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. PLATFORM EXPLORER ================= -->
+<section class="sec sec--navy explorer" id="platform" aria-labelledby="platform-title">
+  <div class="wrap">
+    <div class="head-split rv">
+      <div>
+        <p class="label label--dark">Platform</p>
+        <h2 class="h2" id="platform-title">One platform for connected infrastructure operations</h2>
+      </div>
+      <p class="head-split__p">Six parts, one shared view of state. Pick one to see what it covers. Arrow keys work too.</p>
+    </div>
+    <div class="xp rv">
+      <div class="xp__list" role="tablist" aria-orientation="vertical" aria-label="Platform modules">
+        <button class="xp__tab" role="tab" id="xt-compute" aria-controls="xp-compute" aria-selected="true" data-tab="compute"><svg class="ic"><use href="#i-compute"/></svg>Compute &amp; workloads</button>
+        <button class="xp__tab" role="tab" id="xt-network" aria-controls="xp-network" aria-selected="false" tabindex="-1" data-tab="network"><svg class="ic"><use href="#i-network"/></svg>Networking</button>
+        <button class="xp__tab" role="tab" id="xt-storage" aria-controls="xp-storage" aria-selected="false" tabindex="-1" data-tab="storage"><svg class="ic"><use href="#i-storage"/></svg>Storage</button>
+        <button class="xp__tab" role="tab" id="xt-monitor" aria-controls="xp-monitor" aria-selected="false" tabindex="-1" data-tab="monitor"><svg class="ic"><use href="#i-pulse"/></svg>Monitoring &amp; visibility</button>
+        <button class="xp__tab" role="tab" id="xt-access" aria-controls="xp-access" aria-selected="false" tabindex="-1" data-tab="access"><svg class="ic"><use href="#i-shield"/></svg>Access &amp; policy</button>
+        <button class="xp__tab" role="tab" id="xt-ai" aria-controls="xp-ai" aria-selected="false" tabindex="-1" data-tab="ai"><svg class="ic"><use href="#i-spark"/></svg>AI-assisted operations</button>
+      </div>
+      <div class="xp__panels">
+        <div class="xp__panel" role="tabpanel" id="xp-compute" aria-labelledby="xt-compute" tabindex="0">
+          <div class="xp__text">
+            <h3>Compute &amp; workloads</h3>
+            <p>Provision, manage and migrate workloads across your infrastructure from one operating environment.</p>
+            <ul class="incl"><li>Provision new workloads</li><li>Manage them day to day</li><li>Migrate them between hosts</li></ul>
+          </div>
+          <svg class="xp__viz viz-compute" viewBox="0 0 280 200" aria-hidden="true"><g class="v-host"><rect x="10" y="40" width="120" height="130" rx="6"/><rect x="150" y="40" width="120" height="130" rx="6"/></g><g class="v-vm"><rect x="22" y="56" width="44" height="30" rx="3"/><rect x="74" y="56" width="44" height="30" rx="3"/><rect x="22" y="94" width="44" height="30" rx="3"/><rect x="162" y="56" width="44" height="30" rx="3"/></g><rect class="v-move" x="74" y="94" width="44" height="30" rx="3"/><text x="70" y="190" text-anchor="middle">host-01</text><text x="210" y="190" text-anchor="middle">host-02</text></svg>
+        </div>
+        <div class="xp__panel" role="tabpanel" id="xp-network" aria-labelledby="xt-network" tabindex="0" hidden>
+          <div class="xp__text">
+            <h3>Networking</h3>
+            <p>Manage network services, connectivity, segmentation and policies from the same platform you use for compute.</p>
+            <ul class="incl"><li>Network services and connectivity</li><li>Segmentation</li><li>Infrastructure policies, next to compute</li></ul>
+          </div>
+          <svg class="xp__viz viz-net" viewBox="0 0 280 200" aria-hidden="true"><rect class="v-seg" x="8" y="20" width="126" height="160" rx="6"/><rect class="v-seg v-seg--b" x="146" y="20" width="126" height="160" rx="6"/><g class="v-links"><path d="M50 70 100 130M100 130 190 100M190 100 230 150M50 70 190 100"/></g><g class="v-nodes"><circle cx="50" cy="70" r="9"/><circle cx="100" cy="130" r="9"/><circle cx="190" cy="100" r="9"/><circle cx="230" cy="150" r="9"/></g><text x="71" y="44" text-anchor="middle">segment A</text><text x="209" y="44" text-anchor="middle">segment B</text></svg>
+        </div>
+        <div class="xp__panel" role="tabpanel" id="xp-storage" aria-labelledby="xt-storage" tabindex="0" hidden>
+          <div class="xp__text">
+            <h3>Storage</h3>
+            <p>Tie storage provisioning, health and capacity into the rest of your infrastructure operations.</p>
+            <ul class="incl"><li>Storage provisioning</li><li>Health</li><li>Capacity management</li></ul>
+          </div>
+          <svg class="xp__viz viz-store" viewBox="0 0 280 200" aria-hidden="true"><g class="v-bars"><rect x="20" y="30" width="240" height="26" rx="4"/><rect x="20" y="86" width="240" height="26" rx="4"/><rect x="20" y="142" width="240" height="26" rx="4"/></g><g class="v-fill"><rect x="20" y="30" width="150" height="26" rx="4"/><rect x="20" y="86" width="205" height="26" rx="4"/><rect x="20" y="142" width="90" height="26" rx="4"/></g><text x="20" y="24">pool-01</text><text x="20" y="80">pool-02</text><text x="20" y="136">pool-03</text></svg>
+        </div>
+        <div class="xp__panel" role="tabpanel" id="xp-monitor" aria-labelledby="xt-monitor" tabindex="0" hidden>
+          <div class="xp__text">
+            <h3>Monitoring &amp; visibility</h3>
+            <p>Health, usage, metrics, logs and operational context in one view, so troubleshooting starts with the full picture.</p>
+            <ul class="incl"><li>Health and usage</li><li>Metrics and logs</li><li>Operational context, in one place</li></ul>
+          </div>
+          <svg class="xp__viz viz-mon" viewBox="0 0 280 200" aria-hidden="true"><g class="v-grid"><path d="M10 50h260M10 100h260M10 150h260"/></g><path class="v-line" d="M10 140 50 120 80 130 120 80 150 95 180 60 210 75 240 40 270 55"/><circle class="v-mark" cx="180" cy="60" r="6"/><rect class="v-tip" x="150" y="12" width="96" height="26" rx="4"/><text x="198" y="30" text-anchor="middle">p95 latency</text></svg>
+        </div>
+        <div class="xp__panel" role="tabpanel" id="xp-access" aria-labelledby="xt-access" tabindex="0" hidden>
+          <div class="xp__text">
+            <h3>Access &amp; policy</h3>
+            <p>Role-based access, audit trails, operational controls and policy management across every part of the platform.</p>
+            <ul class="incl"><li>Role-based access</li><li>Audit trails</li><li>Operational controls and policy</li></ul>
+          </div>
+          <svg class="xp__viz viz-acc" viewBox="0 0 280 200" aria-hidden="true"><g class="v-rows"><rect x="10" y="20" width="260" height="34" rx="4"/><rect x="10" y="66" width="260" height="34" rx="4"/><rect x="10" y="112" width="260" height="34" rx="4"/></g><text x="24" y="42">operator</text><text x="24" y="88">auditor</text><text x="24" y="134">admin</text><g class="v-chk"><path d="M226 37l6 6 12-12"/><path d="M226 83l6 6 12-12"/><path d="M226 129l6 6 12-12"/></g><text class="v-log" x="10" y="180">audit: change approved by operator, 14:07</text></svg>
+        </div>
+        <div class="xp__panel" role="tabpanel" id="xp-ai" aria-labelledby="xt-ai" tabindex="0" hidden>
+          <div class="xp__text">
+            <h3>AI-assisted operations</h3>
+            <p>Integrated AI reads infrastructure state, logs and metrics, correlates what it finds and suggests an action. An operator approves it.</p>
+            <ul class="incl"><li>Investigate logs and metrics</li><li>Correlate related issues</li><li>Recommend fixes for operator approval</li></ul>
+          </div>
+          <svg class="xp__viz viz-ai" viewBox="0 0 280 200" aria-hidden="true"><rect class="v-q" x="60" y="20" width="210" height="40" rx="6"/><text x="74" y="45">Why is node-07 slow?</text><rect class="v-a" x="10" y="78" width="230" height="70" rx="6"/><text x="24" y="102">Rebalance job is saturating</text><text x="24" y="122">the storage network.</text><rect class="v-ok" x="10" y="160" width="86" height="28" rx="4"/><text class="v-ok-t" x="53" y="179" text-anchor="middle">Approve</text></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. WHY (STICKY) ================= -->
+<section class="sec why" id="why" aria-labelledby="why-title">
+  <div class="wrap why__grid">
+    <div class="why__pin">
+      <svg class="arch" viewBox="0 0 520 470" role="img" aria-labelledby="arch-t" data-arch data-active="ai">
+        <title id="arch-t">Architecture: operators and IT teams use the Synaptix operating layer, which manages compute, networking and storage on physical infrastructure across data centers, private cloud and hybrid infrastructure.</title>
+        <g class="a-l" data-l="team"><rect x="160" y="8" width="200" height="44" rx="6"/><text x="260" y="36" text-anchor="middle">Operators &amp; IT teams</text></g>
+        <path class="a-w" d="M260 52v22"/>
+        <g class="a-l a-layer" data-l="layer"><rect x="20" y="74" width="480" height="132" rx="8"/><text class="a-big" x="260" y="104" text-anchor="middle">Synaptix™ operating layer</text></g>
+        <g class="a-l a-pill" data-l="ai"><rect x="36" y="122" width="106" height="68" rx="6"/><text x="89" y="152" text-anchor="middle">AI-assisted</text><text x="89" y="170" text-anchor="middle">operations</text></g>
+        <g class="a-l a-pill" data-l="unified"><rect x="150" y="122" width="106" height="68" rx="6"/><text x="203" y="152" text-anchor="middle">Unified</text><text x="203" y="170" text-anchor="middle">management</text></g>
+        <g class="a-l a-pill" data-l="visibility"><rect x="264" y="122" width="106" height="68" rx="6"/><text x="317" y="152" text-anchor="middle">Visibility &amp;</text><text x="317" y="170" text-anchor="middle">monitoring</text></g>
+        <g class="a-l a-pill" data-l="policy"><rect x="378" y="122" width="106" height="68" rx="6"/><text x="431" y="152" text-anchor="middle">Policy &amp;</text><text x="431" y="170" text-anchor="middle">governance</text></g>
+        <path class="a-w" d="M260 206v20M110 226h300M110 226v14M260 226v14M410 226v14"/>
+        <g class="a-l a-res" data-l="unified"><rect x="40" y="240" width="140" height="56" rx="6"/><text x="110" y="273" text-anchor="middle">Compute</text></g>
+        <g class="a-l a-res" data-l="unified"><rect x="190" y="240" width="140" height="56" rx="6"/><text x="260" y="273" text-anchor="middle">Networking</text></g>
+        <g class="a-l a-res" data-l="unified"><rect x="340" y="240" width="140" height="56" rx="6"/><text x="410" y="273" text-anchor="middle">Storage</text></g>
+        <path class="a-w" d="M260 296v24"/>
+        <g class="a-l" data-l="foundation"><rect x="20" y="320" width="480" height="62" rx="8"/><text class="a-big" x="260" y="348" text-anchor="middle">Physical infrastructure</text><text class="a-sub" x="260" y="368" text-anchor="middle">established infrastructure technologies underneath</text></g>
+        <path class="a-w" d="M100 382v22M260 382v22M420 382v22"/>
+        <g class="a-l a-env" data-l="envs"><rect x="30" y="404" width="140" height="44" rx="6"/><text x="100" y="431" text-anchor="middle">Data centers</text></g>
+        <g class="a-l a-env" data-l="envs"><rect x="190" y="404" width="140" height="44" rx="6"/><text x="260" y="431" text-anchor="middle">Private cloud</text></g>
+        <g class="a-l a-env" data-l="envs"><rect x="350" y="404" width="140" height="44" rx="6"/><text x="420" y="431" text-anchor="middle">Hybrid</text></g>
+      </svg>
+    </div>
+    <div class="why__steps">
+      <div class="why__intro rv">
+        <p class="label">Why Synaptix™</p>
+        <h2 class="h2" id="why-title">Why infrastructure teams choose Synaptix™</h2>
+        <p class="lead">Scroll through the reasons. The matching layer lights up in the diagram.</p>
+      </div>
+      <article class="step" data-step="ai">
+        <span class="step__n">Reason 1</span>
+        <h3>Integrated AI operations</h3>
+        <p>The AI is part of the operating layer, not a bolt-on. It sees the same state, logs and metrics your team sees, so its suggestions come with context. Your team approves what runs.</p>
+      </article>
+      <article class="step" data-step="unified">
+        <span class="step__n">Reason 2</span>
+        <h3>Unified infrastructure control</h3>
+        <p>Compute, networking and storage are managed from one connected layer. You stop moving between disconnected tools, and a change in one place shows up everywhere else.</p>
+      </article>
+      <article class="step" data-step="foundation">
+        <span class="step__n">Reason 3</span>
+        <h3>Open operating platform underneath</h3>
+        <p>MoirAI Cloud's own operating platform sits on established infrastructure technologies. You modernize on a foundation your team can understand, with less risk than a ground-up rebuild.</p>
+      </article>
+      <article class="step" data-step="envs">
+        <span class="step__n">Reason 4</span>
+        <h3>Interoperability</h3>
+        <p>It works across data centers, private cloud and hybrid infrastructure, so you can modernize one environment at a time instead of all at once.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. MARQUEE ================= -->
+<div class="mq" aria-label="What Synaptix covers">
+  <div class="mq__row">
+    <div class="mq__track">
+      <ul><li>Compute</li><li>Networking</li><li>Storage</li><li>Monitoring</li><li>Access &amp; policy</li><li>AI-assisted operations</li></ul>
+      <ul aria-hidden="true"><li>Compute</li><li>Networking</li><li>Storage</li><li>Monitoring</li><li>Access &amp; policy</li><li>AI-assisted operations</li></ul>
+    </div>
+  </div>
+  <div class="mq__row mq__row--rev" aria-hidden="true">
+    <div class="mq__track">
+      <ul><li>VMware modernization</li><li>Data centers</li><li>Private cloud</li><li>Hybrid infrastructure</li><li>Regulated environments</li><li>Edge sites</li></ul>
+      <ul><li>VMware modernization</li><li>Data centers</li><li>Private cloud</li><li>Hybrid infrastructure</li><li>Regulated environments</li><li>Edge sites</li></ul>
+    </div>
+  </div>
+</div>
+
+<!-- ================= 6. ROADMAP ================= -->
+<section class="sec roadmap" id="roadmap" aria-labelledby="roadmap-title">
+  <p class="roadmap__bg" aria-hidden="true" data-parallax>ROADMAP</p>
+  <div class="wrap">
+    <div class="head-split rv">
+      <div>
+        <p class="label">Roadmap</p>
+        <h2 class="h2" id="roadmap-title">Start with what ships today. Grow into the rest.</h2>
+      </div>
+      <p class="head-split__p">Each stage carries its real status. Only the first is available now.</p>
+    </div>
+    <div class="tl rv" data-tl data-axis="x">
+      <div class="tl__rail" aria-hidden="true"><span class="tl__seg tl__seg--rail"></span><span class="tl__seg tl__seg--live"></span><span class="tl__seg tl__seg--dev"></span></div>
+      <div class="tl__stages" role="tablist" aria-label="Roadmap stages">
+        <button class="tl__stage" role="tab" id="rt-1" aria-controls="rp-1" aria-selected="true" data-status="live"><span class="tl__dot"><svg class="ic"><use href="#i-check"/></svg></span><span class="tl__n">01</span><span class="tl__name">Synaptix™ platform</span><span class="badge badge--live">Available</span></button>
+        <button class="tl__stage" role="tab" id="rt-2" aria-controls="rp-2" aria-selected="false" tabindex="-1" data-status="dev"><span class="tl__dot"></span><span class="tl__n">02</span><span class="tl__name">Multi-site management</span><span class="badge badge--dev">In development</span></button>
+        <button class="tl__stage" role="tab" id="rt-3" aria-controls="rp-3" aria-selected="false" tabindex="-1" data-status="plan"><span class="tl__dot"></span><span class="tl__n">03</span><span class="tl__name">Predictive operations</span><span class="badge">Planned</span></button>
+        <button class="tl__stage" role="tab" id="rt-4" aria-controls="rp-4" aria-selected="false" tabindex="-1" data-status="plan"><span class="tl__dot"></span><span class="tl__n">04</span><span class="tl__name">Policy &amp; resilience automation</span><span class="badge">Planned</span></button>
+        <button class="tl__stage" role="tab" id="rt-5" aria-controls="rp-5" aria-selected="false" tabindex="-1" data-status="plan"><span class="tl__dot"></span><span class="tl__n">05</span><span class="tl__name">Autonomous operations</span><span class="badge">Planned</span></button>
+        <span class="tl__ind" aria-hidden="true"></span>
+      </div>
+      <div class="tl__panels">
+        <div class="tl__panel is-active" role="tabpanel" id="rp-1" aria-labelledby="rt-1" data-status="live">
+          <p>Unified management, workload operations, monitoring and usage visibility, with AI-assisted investigation, natural-language interaction and operator-controlled remediation.</p>
+          <ul class="chk"><li>AI-assisted investigation</li><li>Monitoring</li><li>Provisioning</li><li>Operator-controlled workflows</li></ul>
+        </div>
+        <div class="tl__panel" role="tabpanel" id="rp-2" aria-labelledby="rt-2" data-status="dev">
+          <p>Run Synaptix™ across several environments with cross-site visibility, coordinated management and resilience workflows.</p>
+          <ul class="chk"><li>Cross-site visibility</li><li>Coordinated management</li><li>Resilience capabilities</li><li>Centralized infrastructure</li></ul>
+        </div>
+        <div class="tl__panel" role="tabpanel" id="rp-3" aria-labelledby="rt-3" data-status="plan">
+          <p>Capacity forecasting, context-aware alerts and impact analysis, with recommendations that get more proactive over time.</p>
+          <ul class="chk"><li>Capacity forecasting</li><li>Context-aware alerts</li><li>Impact analysis</li><li>More proactive recommendations</li></ul>
+        </div>
+        <div class="tl__panel" role="tabpanel" id="rp-4" aria-labelledby="rt-4" data-status="plan">
+          <p>Policy-aware controls, recovery workflows, audit trails that support compliance, and broader governed automation.</p>
+          <ul class="chk"><li>Policy-aware infrastructure controls</li><li>Recovery workflows</li><li>Compliance-supporting auditability</li><li>Broader governed automation</li></ul>
+        </div>
+        <div class="tl__panel" role="tabpanel" id="rp-5" aria-labelledby="rt-5" data-status="plan">
+          <p>Platform agents that investigate, plan, recommend and, in time, carry out approved actions inside guardrails you set.</p>
+          <ul class="chk"><li>Coordinated, policy-governed action</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7. ENVIRONMENTS ================= -->
+<section class="sec envs-sec" id="solutions" aria-labelledby="solutions-title">
+  <div class="wrap">
+    <div class="envs-head rv">
+      <p class="label">Solutions</p>
+      <h2 class="h2" id="solutions-title">Built for the environments you actually run</h2>
+    </div>
+    <div class="envs rv" data-envs>
+      <article class="env is-open" data-env="dc">
+        <button class="env__tab" type="button" aria-expanded="true" aria-controls="env-dc"><span class="env__name">Data centers</span><span class="env__flag">Featured</span></button>
+        <svg class="env__art" viewBox="0 0 200 140" aria-hidden="true"><g fill="none" stroke-width="2"><rect x="38" y="22" width="36" height="98" rx="3"/><rect x="82" y="22" width="36" height="98" rx="3"/><rect x="126" y="22" width="36" height="98" rx="3"/><path d="M44 36h24M44 48h24M44 60h24M88 36h24M88 48h24M88 60h24M132 36h24M132 48h24M132 60h24"/></g><g class="env__led"><circle cx="48" cy="104" r="3"/><circle cx="92" cy="104" r="3"/><circle cx="136" cy="104" r="3"/></g></svg>
+        <div class="env__body" id="env-dc">
+          <p>Run compute, networking, storage and monitoring as one operation, with clearer visibility and better use of resources.</p>
+          <dl><dt>Common pain</dt><dd>Several consoles and reactive workflows make it hard to see system state, fix issues fast or use physical resources well.</dd><dt>How Synaptix™ helps</dt><dd>Management, monitoring, usage visibility and AI-assisted operations in one place, so day-to-day issues take less manual effort.</dd></dl>
+        </div>
+      </article>
+      <article class="env" data-env="ent">
+        <button class="env__tab" type="button" aria-expanded="false" aria-controls="env-ent"><span class="env__name">Enterprises</span></button>
+        <svg class="env__art" viewBox="0 0 200 140" aria-hidden="true"><g fill="none" stroke-width="2"><rect x="30" y="40" width="60" height="80" rx="3"/><rect x="96" y="20" width="74" height="100" rx="3"/><path d="M42 56h12M66 56h12M42 72h12M66 72h12M42 88h12M66 88h12M110 36h14M142 36h14M110 54h14M142 54h14M110 72h14M142 72h14M126 120v-14h14v14"/></g></svg>
+        <div class="env__body" id="env-ent" hidden>
+          <p>Modernize private and hybrid infrastructure, depend less on legacy virtualization and give teams one connected place to work.</p>
+          <dl><dt>Common pain</dt><dd>Legacy virtualization and disconnected tools add cost and complexity, and limit what you can see.</dd><dt>How Synaptix™ helps</dt><dd>One operating environment, with control of your operational data and a phased path off legacy platforms.</dd></dl>
+        </div>
+      </article>
+      <article class="env" data-env="reg">
+        <button class="env__tab" type="button" aria-expanded="false" aria-controls="env-reg"><span class="env__name">Regulated environments</span></button>
+        <svg class="env__art" viewBox="0 0 200 140" aria-hidden="true"><g fill="none" stroke-width="2"><path d="M100 16 148 34v32c0 28-20 48-48 58-28-10-48-30-48-58V34z"/><rect x="82" y="62" width="36" height="28" rx="3"/><path d="M88 62v-8a12 12 0 0 1 24 0v8"/></g></svg>
+        <div class="env__body" id="env-reg" hidden>
+          <p>Keep tight operational control with role-based access, audit trails, policy-driven workflows and private infrastructure operations.</p>
+          <dl><dt>Common pain</dt><dd>You need to keep infrastructure and operational data under your control and show who changed what.</dd><dt>How Synaptix™ helps</dt><dd>Role-based access, policy enforcement, auditability and private AI operations, inside your own environment.</dd></dl>
+        </div>
+      </article>
+      <article class="env" data-env="edge">
+        <button class="env__tab" type="button" aria-expanded="false" aria-controls="env-edge"><span class="env__name">Edge &amp; distributed</span></button>
+        <svg class="env__art" viewBox="0 0 200 140" aria-hidden="true"><g fill="none" stroke-width="2"><circle cx="100" cy="70" r="14"/><circle cx="40" cy="34" r="9"/><circle cx="160" cy="34" r="9"/><circle cx="40" cy="108" r="9"/><circle cx="160" cy="108" r="9"/><path d="M48 39l40 22M152 39l-40 22M48 103l40-22M152 103l-40-22" stroke-dasharray="4 5"/></g></svg>
+        <div class="env__body" id="env-edge" hidden>
+          <p>Extend visibility and management to remote and distributed sites without a separate set of tools for each.</p>
+          <dl><dt>Common pain</dt><dd>Remote sites drift into their own tools, and nobody has one view across them.</dd><dt>How Synaptix™ helps</dt><dd>The same console and operating model at every site. Cross-site management is on the roadmap (in development).</dd></dl>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 8. STARTING POINTS ================= -->
+<section class="sec start" id="start" aria-labelledby="start-title">
+  <div class="wrap">
+    <div class="head-split rv">
+      <div>
+        <p class="label">Starting points</p>
+        <h2 class="h2" id="start-title">Which of these sounds like you?</h2>
+      </div>
+      <p class="head-split__p">Pick the situation closest to yours. The plan below changes with it.</p>
+    </div>
+    <div class="pick rv" role="radiogroup" aria-label="Your situation">
+      <button class="pick__opt" role="radio" aria-checked="true" data-pick="hybrid"><span class="pick__k">Enterprise</span><span class="pick__t">Private &amp; hybrid infrastructure</span><span class="pick__s">Years of tooling, rising licence costs</span></button>
+      <button class="pick__opt" role="radio" aria-checked="false" tabindex="-1" data-pick="dc"><span class="pick__k">Data center</span><span class="pick__t">Data center operations</span><span class="pick__s">Growing estate, too many consoles</span></button>
+      <button class="pick__opt" role="radio" aria-checked="false" tabindex="-1" data-pick="vmware"><span class="pick__k">Migration</span><span class="pick__t">VMware modernization</span><span class="pick__s">Renewal coming, options needed</span></button>
+    </div>
+    <div class="plan" aria-live="polite">
+      <div class="plan__res" data-plan="hybrid">
+        <div><h3>The situation</h3><p>Years of virtualization and tooling have piled up. Licensing costs keep rising, the team is stretched and management is split across systems.</p></div>
+        <div><h3>How Synaptix™ helps</h3><p>One environment for infrastructure management and AI-assisted operations. Modernize private infrastructure, rely less on legacy virtualization and keep control of your operational data.</p></div>
+        <div><h3>Outcomes to aim for</h3><ul class="outs"><li><svg class="ic"><use href="#i-down"/></svg>Less platform dependence</li><li><svg class="ic"><use href="#i-down"/></svg>Lower operational overhead</li><li><svg class="ic"><use href="#i-up"/></svg>More infrastructure control</li></ul></div>
+        <a class="btn btn--primary" href="#contact" data-magnet data-prefill="We run private and hybrid infrastructure and want to talk about consolidating our tooling."><span>Talk about your hybrid estate</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="plan__res" data-plan="dc" hidden>
+        <div><h3>The situation</h3><p>Compute, storage, networking and tenant environments keep growing. Teams react across several consoles while cost, power and capacity pressure climbs.</p></div>
+        <div><h3>How Synaptix™ helps</h3><p>Management, monitoring, usage visibility and AI-assisted operations in one place. Teams see infrastructure health in context and spend less effort on daily issues.</p></div>
+        <div><h3>Outcomes to aim for</h3><ul class="outs"><li><svg class="ic"><use href="#i-down"/></svg>Less operational complexity</li><li><svg class="ic"><use href="#i-up"/></svg>Better infrastructure visibility</li><li><svg class="ic"><use href="#i-up"/></svg>Higher resource efficiency</li></ul></div>
+        <a class="btn btn--primary" href="#contact" data-magnet data-prefill="We operate a data center and want to see how Synaptix would fit our operations."><span>Talk about your data center</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="plan__res" data-plan="vmware" hidden>
+        <div><h3>The situation</h3><p>Costs are rising, licensing terms are tightening and the whole estate depends on one platform.</p></div>
+        <div><h3>How Synaptix™ helps</h3><p>An operating model with AI built in and a path beyond legacy virtualization, taken in phases you control.</p></div>
+        <div><h3>Outcomes to aim for</h3><ul class="outs"><li><svg class="ic"><use href="#i-down"/></svg>Less licensing exposure</li><li><svg class="ic"><use href="#i-up"/></svg>Control over migration timing</li></ul></div>
+        <a class="btn btn--primary" href="#readiness" data-magnet><span>Check your VMware readiness</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 9. VMWARE VS SYNAPTIX ================= -->
+<section class="sec sec--navy vs" id="vmware" aria-labelledby="vmware-title">
+  <div class="wrap vs__grid">
+    <div class="vs__side rv">
+      <p class="label label--dark">Compare</p>
+      <h2 class="h2" id="vmware-title">A typical VMware estate next to Synaptix™</h2>
+      <p>Hover or tap a row for the short version.</p>
+      <div class="vs__take" aria-live="polite">
+        <p class="vs__take-k" data-take-k>Takeaway</p>
+        <p class="vs__take-t" data-take-t>Pick a row to see what it means for your team.</p>
+      </div>
+    </div>
+    <div class="vs__tablewrap rv">
+      <table class="vs__table">
+        <caption class="sr">Comparison of a typical VMware estate and Synaptix, by area</caption>
+        <thead><tr><th scope="col">Area</th><th scope="col">Typical VMware estate</th><th scope="col">Synaptix™</th></tr></thead>
+        <tbody>
+          <tr tabindex="0" data-take="Know your renewal date and next-term cost before you plan anything else."><th scope="row">Licensing model</th><td data-l="VMware">Per-core subscription bundles on the vendor's terms [CONFIRM]</td><td data-l="Synaptix™">[CONFIRM: Synaptix pricing model]</td></tr>
+          <tr tabindex="0" data-take="Every extra console is another login, another data model and another place to look during an incident."><th scope="row">Number of consoles</th><td data-l="VMware">Separate tools for compute, network, storage and monitoring</td><td data-l="Synaptix™">One console for all four, plus access and policy</td></tr>
+          <tr tabindex="0" data-take="Faster answers come from shared context, not more dashboards."><th scope="row">Troubleshooting</th><td data-l="VMware">Manual investigation across separate tools and data sources</td><td data-l="Synaptix™">AI-assisted investigation and correlation, with fixes your team approves</td></tr>
+          <tr tabindex="0" data-take="If health, logs and state live in one place, everyone works from the same picture."><th scope="row">Visibility</th><td data-l="VMware">Spread across several consoles and monitoring tools</td><td data-l="Synaptix™">Health, metrics, logs and system state in one shared view</td></tr>
+          <tr tabindex="0" data-take="Automation is easier to trust when it runs through one set of policies."><th scope="row">Automation</th><td data-l="VMware">Separate admin interfaces and disconnected processes</td><td data-l="Synaptix™">Central workflows, APIs, automation and policy-based controls</td></tr>
+          <tr tabindex="0" data-take="The cheapest server is the one you already own."><th scope="row">Hardware reuse</th><td data-l="VMware">Virtualization overhead takes a share of every host</td><td data-l="Synaptix™">Runs on servers you own; Synaptik™ Cell aims to raise density [CONFIRM: typical consolidation ratio]</td></tr>
+          <tr tabindex="0" data-take="A phased plan lets you prove each step before you commit to the next."><th scope="row">Migration path</th><td data-l="VMware">Staying means renewing; leaving can feel all or nothing</td><td data-l="Synaptix™">A phased, controlled migration on your timeline</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 10. CALCULATOR ================= -->
+<section class="sec calc" id="calculator" aria-labelledby="calc-title">
+  <div class="wrap">
+    <div class="calc-head rv">
+      <p class="label">Calculator</p>
+      <h2 class="h2" id="calc-title">What could Synaptik™ Cell save you?</h2>
+      <p class="lead">Move the sliders to match your estate. The numbers update as you go.</p>
+    </div>
+    <div class="calc__grid rv">
+      <form class="calc__in" data-calc onsubmit="return false" aria-label="Calculator inputs">
+        <div class="rng"><label for="c-servers">Physical servers today</label><output for="c-servers" data-out="servers"></output><input id="c-servers" type="range" min="5" max="500" step="1" value="60" data-in="servers"></div>
+        <div class="rng"><label for="c-vms">Average workloads per server</label><output for="c-vms" data-out="vms"></output><input id="c-vms" type="range" min="5" max="60" step="1" value="20" data-in="vms"></div>
+        <div class="rng"><label for="c-lic">Virtualization licensing per server, per year</label><output for="c-lic" data-out="lic"></output><input id="c-lic" type="range" min="1000" max="20000" step="250" value="6000" data-in="lic"></div>
+        <div class="rng"><label for="c-pwr">Power and cooling per server, per year</label><output for="c-pwr" data-out="pwr"></output><input id="c-pwr" type="range" min="500" max="5000" step="50" value="1500" data-in="pwr"></div>
+        <div class="rng"><label for="c-gain">Workload density gain with Synaptik™ Cell</label><output for="c-gain" data-out="gain"></output><input id="c-gain" type="range" min="5" max="80" step="1" value="30" data-in="gain"><p class="rng__note">Default is a placeholder: [CONFIRM: typical density gain]</p></div>
+      </form>
+      <div class="calc__out" aria-live="polite">
+        <div class="kpis">
+          <div class="kpi kpi--big"><span class="kpi__v" data-kpi="total">$0</span><span class="kpi__l">3-year total</span></div>
+          <div class="kpi"><span class="kpi__v" data-kpi="retire">0</span><span class="kpi__l">servers you could retire</span></div>
+          <div class="kpi"><span class="kpi__v" data-kpi="hw">$0</span><span class="kpi__l">hardware and power, per year</span></div>
+          <div class="kpi"><span class="kpi__v" data-kpi="lic">$0</span><span class="kpi__l">licensing exposure removed, per year</span></div>
+        </div>
+        <div class="rack" aria-hidden="true">
+          <p class="rack__l">Today <span data-rack-before></span></p><div class="rack__row" data-rack="before"></div>
+          <p class="rack__l">With Synaptik™ Cell <span data-rack-after></span></p><div class="rack__row" data-rack="after"></div>
+        </div>
+        <p class="calc__fine">Estimate only, based on the inputs above. Results vary by workload type, configuration and environment. Synaptix™ subscription costs are not included. Assumptions: [CONFIRM: amortized hardware cost per server, per year] and [CONFIRM: share of licensing removed].</p>
+        <a class="btn btn--primary" href="#contact" data-magnet data-calc-cta><span>Get a real number for your environment</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 11. READINESS CHECK ================= -->
+<section class="sec ready" id="readiness" aria-labelledby="ready-title">
+  <div class="wrap ready__grid">
+    <div class="ready__q rv">
+      <p class="label">Self-check</p>
+      <h2 class="h2" id="ready-title">How ready are you to leave VMware?</h2>
+      <p class="lead">Six yes-or-no questions. Nothing you answer is sent anywhere; it stays in this page.</p>
+      <ol class="qs" data-quiz>
+        <li><fieldset><legend>Do you have an inventory of every workload you run?</legend><div class="yn"><input type="radio" id="q1y" name="q1" value="1"><label for="q1y">Yes</label><input type="radio" id="q1n" name="q1" value="0"><label for="q1n">No</label></div></fieldset></li>
+        <li><fieldset><legend>Have you tested a restore path recently?</legend><div class="yn"><input type="radio" id="q2y" name="q2" value="1"><label for="q2y">Yes</label><input type="radio" id="q2n" name="q2" value="0"><label for="q2n">No</label></div></fieldset></li>
+        <li><fieldset><legend>Do you know your licensing renewal date?</legend><div class="yn"><input type="radio" id="q3y" name="q3" value="1"><label for="q3y">Yes</label><input type="radio" id="q3n" name="q3" value="0"><label for="q3n">No</label></div></fieldset></li>
+        <li><fieldset><legend>Can you see compute, network and storage in one view?</legend><div class="yn"><input type="radio" id="q4y" name="q4" value="1"><label for="q4y">Yes</label><input type="radio" id="q4n" name="q4" value="0"><label for="q4n">No</label></div></fieldset></li>
+        <li><fieldset><legend>Is one person accountable for the migration?</legend><div class="yn"><input type="radio" id="q5y" name="q5" value="1"><label for="q5y">Yes</label><input type="radio" id="q5n" name="q5" value="0"><label for="q5n">No</label></div></fieldset></li>
+        <li><fieldset><legend>Is your team trained on the platform you would move to?</legend><div class="yn"><input type="radio" id="q6y" name="q6" value="1"><label for="q6y">Yes</label><input type="radio" id="q6n" name="q6" value="0"><label for="q6n">No</label></div></fieldset></li>
+      </ol>
+    </div>
+    <aside class="score rv" aria-live="polite">
+      <svg class="score__ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52"/><circle class="score__bar" cx="60" cy="60" r="52" pathLength="100"/></svg>
+      <p class="score__n"><span data-score>0</span><small>of 6</small></p>
+      <p class="score__h" data-score-h>Answer the questions to see where you stand.</p>
+      <p class="score__t" data-score-t></p>
+      <a class="btn btn--primary btn--sm" href="#contact" data-magnet data-quiz-cta><span>Talk through your answers</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      <button class="link" type="button" data-quiz-reset>Start again</button>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= 12. SYNAPTIK CELL ================= -->
+<section class="sec sec--navy cell" id="cell" aria-labelledby="cell-title">
+  <div class="wrap">
+    <div class="cell__head rv">
+      <p class="label label--dark">Synaptik™ Cell</p>
+      <h2 class="h2" id="cell-title">More useful compute from the servers you own</h2>
+      <p>Synaptik™ Cell is our proprietary compute technology. Instead of traditional VMs it uses a lighter workload execution model, with materially lower memory overhead.</p>
+    </div>
+    <div class="stats">
+      <article class="stat stat--mem spot rv" tabindex="0">
+        <svg class="stat__viz" viewBox="0 0 200 110" aria-hidden="true"><g class="sv-mem"><rect x="10" y="20" width="180" height="18" rx="3"/><rect x="10" y="50" width="180" height="18" rx="3"/><rect x="10" y="80" width="180" height="18" rx="3"/></g><g class="sv-over"><rect x="120" y="20" width="70" height="18" rx="3"/><rect x="130" y="50" width="60" height="18" rx="3"/><rect x="115" y="80" width="75" height="18" rx="3"/></g></svg>
+        <p class="stat__v">[CONFIRM: memory overhead vs VMs]</p>
+        <h3>Lower workload overhead</h3>
+        <p>Less memory spent on virtualization, more left for the work itself.</p>
+      </article>
+      <article class="stat stat--srv spot rv" tabindex="0">
+        <svg class="stat__viz" viewBox="0 0 200 110" aria-hidden="true"><g class="sv-srv"><rect x="10" y="30" width="30" height="60" rx="3"/><rect x="48" y="30" width="30" height="60" rx="3"/><rect x="86" y="30" width="30" height="60" rx="3"/><rect x="124" y="30" width="30" height="60" rx="3"/><rect x="162" y="30" width="30" height="60" rx="3"/></g></svg>
+        <p class="stat__v">[CONFIRM: typical consolidation ratio]</p>
+        <h3>Fewer physical servers</h3>
+        <p>Less overhead per workload can mean less hardware to buy, power and cool.</p>
+      </article>
+      <article class="stat stat--den spot rv" tabindex="0">
+        <svg class="stat__viz" viewBox="0 0 200 110" aria-hidden="true"><rect class="sv-host" x="40" y="10" width="120" height="96" rx="4"/><g class="sv-blk"><rect x="52" y="78" width="44" height="18" rx="2"/><rect x="104" y="78" width="44" height="18" rx="2"/><rect x="52" y="54" width="44" height="18" rx="2"/><rect x="104" y="54" width="44" height="18" rx="2"/><rect x="52" y="30" width="44" height="18" rx="2"/><rect x="104" y="30" width="44" height="18" rx="2"/></g></svg>
+        <p class="stat__v">[CONFIRM: workloads per host]</p>
+        <h3>Higher workload density</h3>
+        <p>Fit more workloads on each host you already run.</p>
+      </article>
+    </div>
+    <p class="cell__note rv">MoirAI has demonstrated Synaptik™ Cell in lab and data center environments and is continuing integration and validation for broader deployment. Results vary with workload type, configuration and environment.</p>
+  </div>
+</section>
+
+<!-- ================= 13. ROLLOUT ================= -->
+<section class="sec rollout" id="rollout" aria-labelledby="rollout-title">
+  <div class="wrap">
+    <div class="head-split rv">
+      <div>
+        <p class="label">How it works</p>
+        <h2 class="h2" id="rollout-title">How a rollout works</h2>
+      </div>
+      <p class="head-split__p">Four steps, each one proving the next is worth taking.</p>
+    </div>
+    <div class="steps-wrap" data-steps>
+      <div class="steps__segs" aria-hidden="true"><span class="steps__seg"><i></i></span><span class="steps__seg"><i></i></span><span class="steps__seg"><i></i></span></div>
+      <ol class="steps">
+        <li class="rs rv"><span class="rs__n">01</span><h3>Discovery call</h3><p>Tell us what you run and where it hurts. We will say plainly whether Synaptix™ fits.</p><p class="rs__get"><span>What you get</span>A straight answer on fit, without a sales deck.</p><span class="rs__t confirm">[CONFIRM: call length]</span></li>
+        <li class="rs rv"><span class="rs__n">02</span><h3>Environment review</h3><p>We look at your workloads, hardware and current tools, and agree what a pilot has to prove.</p><p class="rs__get"><span>What you get</span>A pilot scope and the results it has to show.</p><span class="rs__t confirm">[CONFIRM: review duration]</span></li>
+        <li class="rs rv"><span class="rs__n">03</span><h3>Pilot on your hardware</h3><p>Synaptix™ runs on servers you already own, on a scope you choose.</p><p class="rs__get"><span>What you get</span>Results from your own workloads on your own servers.</p><span class="rs__t confirm">[CONFIRM: typical pilot length]</span></li>
+        <li class="rs rv"><span class="rs__n">04</span><h3>Expand and migrate</h3><p>Move more workloads across in phases you control.</p><p class="rs__get"><span>What you get</span>A phased plan you can pause or change at each step.</p><span class="rs__t confirm">[CONFIRM: typical migration timeline]</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 14. CONTACT ================= -->
+<section class="sec sec--navy contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact__grid">
+    <div class="contact__main rv">
+      <p class="label label--dark">Contact</p>
+      <h2 class="h2" id="contact-title">Talk to our team about your infrastructure</h2>
+      <p class="contact__intro">Tell us what you run and what's in the way. We'll tell you how Synaptix™ would fit, including what's available now and what's still on the roadmap.</p>
+      <form class="form" id="contact-form" action="mailto:support@moiraicloud.ai" method="post" data-mode="mailto" novalidate>
+        
+        <p class="form__status" id="form-status" role="status"></p>
+        <div class="form__row">
+          <div class="fl"><label for="f-name">Name <span aria-hidden="true">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name"><span class="fl__err" id="e-name" aria-live="polite"></span></div>
+          <div class="fl"><label for="f-email">Work email <span aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" required aria-describedby="e-email"><span class="fl__err" id="e-email" aria-live="polite"></span></div>
+        </div>
+        <div class="form__row">
+          <div class="fl"><label for="f-company">Company</label><input id="f-company" name="company" type="text" autocomplete="organization"></div>
+          <div class="fl"><label for="f-env">Your environment</label>
+            <select id="f-env" name="environment"><option value="">Choose one (optional)</option><option>Data center</option><option>Enterprise private or hybrid</option><option>Regulated environment</option><option>Edge or distributed</option><option>Managed service provider</option><option>Other</option></select></div>
+        </div>
+        <div class="fl"><label for="f-message">What would you like to discuss? <span aria-hidden="true">*</span></label><textarea id="f-message" name="message" rows="5" maxlength="2000" required aria-describedby="e-message" placeholder="For example: we run 40 VMware hosts across two sites and want to plan a move…"></textarea><span class="fl__err" id="e-message" aria-live="polite"></span></div>
+        <div class="hp" aria-hidden="true"><label for="f-website">Leave this empty</label><input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="btn btn--primary btn--block" type="submit" data-magnet><span>Send Message</span><svg class="ic"><use href="#i-arrow"/></svg></button>
+        <p class="form__fine">Fields marked * are required. We use your details only to reply.</p>
+      </form>
+      <div class="form-done" id="form-done" tabindex="-1" hidden>
+        <span class="form-done__ic"><svg class="ic"><use href="#i-check"/></svg></span>
+        <h3 id="form-done-title">Thanks.</h3>
+        <p id="form-done-text"></p>
+        <button class="link" type="button" data-form-reset>Write another message</button>
+      </div>
+    </div>
+    <div class="cstack rv">
+      <button class="ccard ccard--mail spot" type="button" data-copy="support@moiraicloud.ai">
+        <span class="ccard__ic"><svg class="ic"><use href="#i-mail"/></svg></span>
+        <span class="ccard__txt"><span class="ccard__k">Email us</span><span class="ccard__v">support@moiraicloud.ai</span></span>
+        <span class="ccard__copy"><svg class="ic"><use href="#i-copy"/></svg><span data-copy-label>Copy</span></span>
+      </button>
+      <div class="ccard">
+        <h3 class="ccard__h">What happens next</h3>
+        <ol class="next"><li>We read your message and reply by email.</li><li>A short call to understand your environment.</li><li>If it fits, we scope a review or a pilot.</li></ol>
+      </div>
+      <div class="ccard ccard--soft">
+        <h3 class="ccard__h">When to expect a reply</h3>
+        <p>[CONFIRM: typical reply time, e.g. within one business day]</p>
+      </div>
+    </div>
+  </div>
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+</section>
+
+<!-- ================= 15. TEAM ================= -->
+<section class="sec team" id="team" aria-labelledby="team-title">
+  <div class="wrap team__grid">
+    <div class="team__copy rv">
+      <p class="label">Founders</p>
+      <h2 class="h2" id="team-title">The people building MoirAI Cloud</h2>
+      <p class="lead">Two founders, one goal: make infrastructure simpler to run.</p>
+    </div>
+    <ul class="people">
+      <li class="person rv">
+        <div class="person__card" tabindex="0">
+          <img src="assets/images/robert-twitchell.webp" width="600" height="600" loading="lazy" alt="Robert Twitchell">
+          <div class="person__bio">
+            <p>[CONFIRM: 2-line bio for Robert Twitchell]</p>
+            <a href="https://www.linkedin.com/in/bob-twitchell-6648a55/" target="_blank" rel="noopener"><svg class="ic"><use href="#b-in"/></svg>Robert on LinkedIn</a>
+          </div>
+        </div>
+        <h3 class="person__name">Robert Twitchell</h3>
+        <p class="person__role">Founder &amp; CEO</p>
+      </li>
+      <li class="person person--low rv">
+        <div class="person__card" tabindex="0">
+          <img src="assets/images/daniel-twitchell.webp" width="600" height="600" loading="lazy" alt="Daniel Twitchell">
+          <div class="person__bio">
+            <p>[CONFIRM: 2-line bio for Daniel Twitchell]</p>
+            <a href="https://www.linkedin.com/in/dan-twitchell-4600a344/" target="_blank" rel="noopener"><svg class="ic"><use href="#b-in"/></svg>Daniel on LinkedIn</a>
+          </div>
+        </div>
+        <h3 class="person__name">Daniel Twitchell</h3>
+        <p class="person__role">Founder &amp; CRO</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= 16. FAQ ================= -->
+<section class="sec faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq__grid">
+    <div class="faq__side rv">
+      <p class="label">FAQ</p>
+      <h2 class="h2" id="faq-title">Questions we hear most</h2>
+      <div class="search">
+        <label class="sr" for="faq-q">Search the questions</label>
+        <svg class="ic"><use href="#i-search"/></svg>
+        <input id="faq-q" type="search" placeholder="Search, e.g. VMware…" autocomplete="off" data-faq-q>
+      </div>
+      <p class="faq__count" aria-live="polite" data-faq-count>8 questions</p>
+    </div>
+    <div class="faq__list rv" data-faq>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa1" id="qb1">What is Synaptix™?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa1" role="region" aria-labelledby="qb1" hidden><p>An AI infrastructure operating platform. It brings compute, networking, storage, monitoring, and access and policy into one console, with integrated AI that helps your team investigate issues and decide what to do.</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa2" id="qb2">Does it run on our existing hardware?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa2" role="region" aria-labelledby="qb2" hidden><p>Synaptix™ is built to get more useful compute from infrastructure you already own. [CONFIRM: hardware requirements or compatibility list]</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa3" id="qb3">How does the AI decide on fixes, and who approves them?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa3" role="region" aria-labelledby="qb3" hidden><p>It reads infrastructure state, logs and metrics, correlates related signals and recommends an action. Remediation is operator-controlled: a person on your team approves it. Autonomous action within guardrails you set is a planned roadmap stage, not something that ships today.</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa4" id="qb4">Can we migrate off VMware in phases?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa4" role="region" aria-labelledby="qb4" hidden><p>Yes. The approach is a phased, controlled migration on your timeline. Our <a href="https://moiraicloud.ai/blog/vmware-migration-playbook" target="_blank" rel="noopener">VMware Migration Playbook</a> sets out the framework.</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa5" id="qb5">What's available today, and what's on the roadmap?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa5" role="region" aria-labelledby="qb5" hidden><p>The Synaptix™ platform is available now. Multi-site management is in development. Predictive operations, policy and resilience automation, and autonomous operations are planned. See the <a href="#roadmap">roadmap</a>.</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa6" id="qb6">How is it priced?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa6" role="region" aria-labelledby="qb6" hidden><p>[CONFIRM: pricing model]. For now, the quickest way to a number is to <a href="#contact">talk to our team</a>.</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa7" id="qb7">Does it work in regulated or air-gapped environments?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa7" role="region" aria-labelledby="qb7" hidden><p>It is built for regulated environments, with role-based access, policy enforcement, auditability and private AI operations. Air-gapped deployment: [CONFIRM: air-gapped support].</p></div></div>
+      <div class="qa"><h3><button type="button" aria-expanded="false" aria-controls="qa8" id="qb8">What is Synaptik™ Cell, and can we use it now?<svg class="ic"><use href="#i-plus"/></svg></button></h3><div class="qa__a" id="qa8" role="region" aria-labelledby="qb8" hidden><p>It is our compute technology with a lighter execution model than traditional VMs. MoirAI has demonstrated it in lab and data center environments and is continuing integration and validation for broader deployment.</p></div></div>
+      <p class="faq__empty" data-faq-empty hidden>No questions match that. Try another word, or <a href="#contact">ask us directly</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 17. INSIGHTS ================= -->
+<section class="sec insights" id="insights" aria-labelledby="insights-title">
+  <div class="wrap">
+    <div class="head-split rv">
+      <div>
+        <p class="label">Insights</p>
+        <h2 class="h2" id="insights-title">Latest writing from the MoirAI team</h2>
+      </div>
+      <p class="head-split__p">Drag sideways or use the arrow keys to browse.</p>
+    </div>
+  </div>
+  <div class="drag rv" data-drag data-cursor="Drag" tabindex="0" aria-label="Articles, scrollable">
+    <ul class="drag__track">
+      <li class="post"><a href="https://moiraicloud.ai/blog/executive-guide-vmware-modernization" target="_blank" rel="noopener" draggable="false">
+        <span class="post__img"><img src="assets/images/blog-exec.webp" width="800" height="450" loading="lazy" alt="" draggable="false"><span class="post__tag">Featured</span></span>
+        <span class="post__meta"><time datetime="2026-10-09">October 9, 2026</time></span>
+        <span class="post__t">The Executive Guide to VMware Modernization</span>
+        <span class="post__more">Read post<svg class="ic"><use href="#i-arrow-ur"/></svg></span></a></li>
+      <li class="post"><a href="https://moiraicloud.ai/blog/vmware-migration-playbook" target="_blank" rel="noopener" draggable="false">
+        <span class="post__img"><img src="assets/images/blog-playbook.webp" width="800" height="450" loading="lazy" alt="" draggable="false"><span class="post__tag">Featured</span></span>
+        <span class="post__meta"><time datetime="2026-10-09">October 9, 2026</time></span>
+        <span class="post__t">The VMware Migration Playbook: A Practical Framework for a Controlled Migration</span>
+        <span class="post__more">Read post<svg class="ic"><use href="#i-arrow-ur"/></svg></span></a></li>
+      <li class="post"><a href="https://moiraicloud.ai/blog/synaptix-platform-overview" target="_blank" rel="noopener" draggable="false">
+        <span class="post__img"><img src="assets/images/blog-overview.webp" width="800" height="450" loading="lazy" alt="" draggable="false"><span class="post__tag">Featured</span></span>
+        <span class="post__meta"><time datetime="2026-10-09">October 9, 2026</time></span>
+        <span class="post__t">Synaptix™ Platform Overview: The AI Infrastructure Operating Platform</span>
+        <span class="post__more">Read post<svg class="ic"><use href="#i-arrow-ur"/></svg></span></a></li>
+      <li class="post post--all"><a href="https://moiraicloud.ai/resources" target="_blank" rel="noopener" draggable="false">
+        <span class="post__t">All resources</span><span>Guides, playbooks and upcoming webinars on moiraicloud.ai</span>
+        <span class="post__more">Browse resources<svg class="ic"><use href="#i-arrow-ur"/></svg></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= 18. CLOSING CTA ================= -->
+<section class="close" aria-labelledby="close-title">
+  <div class="wrap">
+    <div class="close__box">
+      <canvas class="close__net" aria-hidden="true" data-net></canvas>
+      <div class="close__copy rv">
+        <p class="label label--dark">Get started</p>
+        <h2 class="close__h" id="close-title">Ready to see what Synaptix™ can do in your environment?</h2>
+        <div class="close__acts">
+          <a class="btn btn--primary btn--lg" href="#contact" data-magnet><span>Talk to Our Team</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a class="close__vm" href="https://moiraicloud.ai/blog/how-to-replace-vmware-infrastructure-phased-plan" target="_blank" rel="noopener"><span>Planning a move off VMware?</span> Read our phased plan<svg class="ic"><use href="#i-arrow-ur"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="ft">
+  <p class="ft__mark" aria-hidden="true">MoirAI</p>
+  <div class="wrap ft__grid">
+    <div class="ft__brand">
+      <a class="logo" href="#top" aria-label="MoirAI Cloud, back to top"><img src="assets/images/logo-h41.png" srcset="assets/images/logo-h41.png 1x, assets/images/logo-h82.png 2x" width="234" height="41" alt="MoirAI Cloud" loading="lazy"></a>
+      <p>Makers of Synaptix™, the AI infrastructure operating platform for data centers, enterprises, regulated and edge environments.</p>
+      <ul class="soc soc--lg">
+        <li><a href="https://x.com/MoirAICloud" target="_blank" rel="noopener" aria-label="MoirAI Cloud on X"><svg class="ic"><use href="#b-x"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/company/moirai-cloud/about/" target="_blank" rel="noopener" aria-label="MoirAI Cloud on LinkedIn"><svg class="ic"><use href="#b-in"/></svg></a></li>
+        <li><a href="https://www.instagram.com/moirai.cloud/" target="_blank" rel="noopener" aria-label="MoirAI Cloud on Instagram"><svg class="ic"><use href="#b-ig"/></svg></a></li>
+      </ul>
+    </div>
+    <nav class="ft__col" aria-labelledby="fh-p"><h2 class="ft__h" id="fh-p">Platform</h2><ul><li><a href="#platform">Modules</a></li><li><a href="#why">Why Synaptix™</a></li><li><a href="#roadmap">Roadmap</a></li><li><a href="#cell">Synaptik™ Cell</a></li><li><a href="#calculator">Calculator</a></li></ul></nav>
+    <nav class="ft__col" aria-labelledby="fh-c"><h2 class="ft__h" id="fh-c">Company</h2><ul><li><a href="#about">About</a></li><li><a href="#team">Founders</a></li><li><a href="#solutions">Solutions</a></li><li><a href="#faq">FAQ</a></li><li><a href="mailto:support@moiraicloud.ai">support@moiraicloud.ai</a></li></ul></nav>
+    <div class="ft__col"><h2 class="ft__h">More reading</h2>
+      <ul class="ft__posts">
+        <li><a href="https://moiraicloud.ai/blog/private-cloud-infrastructure-operating-model-2026" target="_blank" rel="noopener">Private Cloud Infrastructure in 2026: Build an Operating Model, Not Just a Platform</a><time datetime="2026-10-12">October 12, 2026</time></li>
+        <li><a href="https://moiraicloud.ai/blog/managed-infrastructure-platform-scaling-operations" target="_blank" rel="noopener">Managed Infrastructure Platforms: Scaling Operations Without Scaling Headcount</a><time datetime="2026-10-05">October 5, 2026</time></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap ft__bar">
+    <p>© <span data-year>2026</span> MoirAI Cloud. All rights reserved.</p>
+    <a href="#top" data-to-top>Back to top<svg class="ic"><use href="#i-up"/></svg></a>
+  </div>
+</footer>
+
+<button class="totop" type="button" aria-label="Back to top" data-to-top data-totop>
+  <svg class="totop__ring" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="23"/><circle class="totop__bar" cx="26" cy="26" r="23" pathLength="100"/></svg>
+  <svg class="ic"><use href="#i-up"/></svg>
+</button>
+
+<script>
+var CALC = {
+DENSITY_GAIN_DEFAULT: 30,           // % more workloads per server with Synaptik Cell. [CONFIRM: typical density gain]
+HARDWARE_PER_SERVER_PER_YEAR: 2500, // USD, amortized hardware cost of one server per year. [CONFIRM: amortized hardware cost]
+LICENSING_SHARE_REMOVED: 1.0,       // Share of per-server virtualization licensing removed after moving (1.0 = all). [CONFIRM: share removed]
+YEARS: 3,                           // Horizon for the total.
+RACK_MAX_ICONS: 60                  // The rack graphic never draws more icons than this; each icon then stands for several servers.
+};
+(function () {
+'use strict';
+var doc = document.documentElement;
+doc.classList.add('js');
+var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+function $(s, c) { return (c || document).querySelector(s); }
+function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+function safe(name, fn) { try { fn(); } catch (e) { if (window.console) console.warn('[moirai] ' + name, e); } }
+var jumping = false;
+var scrollFns = [], queued = false, fallback = null;
+function runScroll() {
+if (!queued) return;
+queued = false;
+clearTimeout(fallback);
+for (var i = 0; i < scrollFns.length; i++) scrollFns[i]();
+}
+function requestScrollWork() {
+if (queued) return;
+queued = true;
+requestAnimationFrame(runScroll);
+fallback = setTimeout(runScroll, 120);
+}
+window.addEventListener('scroll', requestScrollWork, { passive: true });
+window.addEventListener('resize', requestScrollWork, { passive: true });
+function onScroll(fn) { scrollFns.push(fn); fn(); }
+function jumpTo(el) {
+if (!el) return;
+el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+}
+var money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+var num = new Intl.NumberFormat('en-US');
+safe('confirm', function () {
+var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+acceptNode: function (n) { return /\[CONFIRM/.test(n.nodeValue) && !n.parentNode.closest('script, style, textarea, option, .confirm') ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT; }
+});
+var nodes = [];
+while (walker.nextNode()) nodes.push(walker.currentNode);
+nodes.forEach(function (n) {
+var frag = document.createDocumentFragment();
+n.nodeValue.split(/(\[CONFIRM[^\]]*\])/).forEach(function (part) {
+if (!part) return;
+if (/^\[CONFIRM/.test(part)) { var m = document.createElement('mark'); m.className = 'confirm'; m.textContent = part; frag.appendChild(m); }
+else frag.appendChild(document.createTextNode(part));
+});
+n.parentNode.replaceChild(frag, n);
+});
+});
+safe('header', function () {
+var hd = $('#hd');
+var bar = $('.hd__progress span');
+var links = $$('.nav__link[href^="#"]');
+var targets = links.map(function (a) { return $(a.getAttribute('href')); });
+onScroll(function () {
+if (jumping) return;
+var y = window.scrollY;
+hd.classList.toggle('is-compact', y > 24);
+var max = doc.scrollHeight - window.innerHeight;
+bar.style.setProperty('--p', max > 0 ? (y / max).toFixed(4) : 0);
+var line = window.innerHeight * 0.35, cur = -1;
+targets.forEach(function (t, i) { if (t && t.getBoundingClientRect().top <= line) cur = i; });
+links.forEach(function (a, i) { a.classList.toggle('is-current', i === cur); });
+});
+});
+safe('mega', function () {
+var items = $$('.nav__item.has-mega');
+function set(item, open) {
+item.classList.toggle('is-open', open);
+$('button', item).setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+function closeAll(except) { items.forEach(function (it) { if (it !== except) set(it, false); }); }
+items.forEach(function (item) {
+var btn = $('button', item), timer;
+btn.addEventListener('click', function () { var open = !item.classList.contains('is-open'); closeAll(item); set(item, open); if (open) $('.mega a', item).focus(); });
+if (fine) {
+item.addEventListener('mouseenter', function () { clearTimeout(timer); closeAll(item); set(item, true); });
+item.addEventListener('mouseleave', function () { timer = setTimeout(function () { set(item, false); }, 160); });
+}
+item.addEventListener('focusout', function (e) { if (!item.contains(e.relatedTarget)) set(item, false); });
+item.addEventListener('keydown', function (e) { if (e.key === 'Escape') { set(item, false); btn.focus(); } });
+$$('.mega a', item).forEach(function (a) { a.addEventListener('click', function () { set(item, false); }); });
+});
+document.addEventListener('click', function (e) { if (!e.target.closest('.has-mega')) closeAll(); });
+});
+safe('overlay', function () {
+var ovl = $('#ovl');
+var openers = $$('[data-ovl-open]');
+var last = null;
+$$('.ovl__nav li', ovl).forEach(function (li, i) { li.style.setProperty('--i', i); });
+function focusables() { return $$('a[href], button', ovl).filter(function (el) { return el.offsetParent !== null; }); }
+function onKey(e) {
+if (e.key === 'Escape') { close(true); return; }
+if (e.key !== 'Tab') return;
+var f = focusables(), first = f[0], end = f[f.length - 1];
+if (e.shiftKey && document.activeElement === first) { e.preventDefault(); end.focus(); }
+else if (!e.shiftKey && document.activeElement === end) { e.preventDefault(); first.focus(); }
+}
+function open() {
+last = document.activeElement;
+ovl.hidden = false;
+document.body.style.overflow = 'hidden';
+openers.forEach(function (b) { b.setAttribute('aria-expanded', 'true'); });
+requestAnimationFrame(function () { requestAnimationFrame(function () { ovl.classList.add('is-open'); }); });
+setTimeout(function () { ovl.classList.add('is-open'); }, 30);
+$('.ovl__close', ovl).focus({ preventScroll: true });
+document.addEventListener('keydown', onKey);
+}
+function close(restore) {
+ovl.classList.remove('is-open');
+document.body.style.overflow = '';
+openers.forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+document.removeEventListener('keydown', onKey);
+setTimeout(function () { ovl.hidden = true; }, reduce ? 0 : 350);
+if (restore && last) last.focus({ preventScroll: true });
+}
+openers.forEach(function (b) { b.addEventListener('click', open); });
+$$('[data-ovl-close]', ovl).forEach(function (b) { b.addEventListener('click', function () { close(true); }); });
+$$('a[href^="#"]', ovl).forEach(function (a) { a.addEventListener('click', function () { close(false); }); });
+});
+safe('video', function () {
+var v = $('.hero__video');
+var btn = $('[data-video-toggle]');
+var userPaused = reduce;
+function play() { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+function sync() {
+btn.classList.toggle('is-paused', userPaused);
+btn.setAttribute('aria-label', userPaused ? 'Play background video' : 'Pause background video');
+}
+v.muted = true;
+if (reduce) { v.removeAttribute('autoplay'); v.pause(); }
+btn.addEventListener('click', function () { userPaused = !userPaused; if (userPaused) v.pause(); else play(); sync(); });
+if ('IntersectionObserver' in window) {
+new IntersectionObserver(function (es) {
+es.forEach(function (e) { if (userPaused) return; if (e.isIntersecting) play(); else v.pause(); });
+}, { threshold: 0.05 }).observe(v);
+}
+sync();
+});
+safe('map', function () {
+var info = {
+ai: ['AI layer', 'Reads the shared state, logs and metrics, traces an issue to a likely cause and suggests a fix for your team to approve.'],
+compute: ['Compute', 'Provision, manage and migrate workloads across the servers you run.'],
+network: ['Networking', 'Connectivity, segmentation and network policy, managed next to compute.'],
+storage: ['Storage', 'Provisioning, health and capacity, tied into the same console.'],
+monitor: ['Monitoring', 'Health, metrics, logs and usage in one view.'],
+access: ['Access & policy', 'Role-based access, audit trails and policy controls across the platform.']
+};
+var k = $('[data-map-k]'), t = $('[data-map-t]');
+var nodes = $$('.map__node');
+function select(id) {
+nodes.forEach(function (n) { n.classList.toggle('is-on', n.getAttribute('data-node') === id); n.setAttribute('aria-pressed', n.getAttribute('data-node') === id ? 'true' : 'false'); });
+$$('.map__lines path').forEach(function (p) { p.classList.toggle('is-on', p.getAttribute('data-line') === id); });
+k.textContent = info[id][0];
+t.textContent = info[id][1];
+}
+nodes.forEach(function (n) {
+var id = n.getAttribute('data-node');
+n.setAttribute('aria-pressed', 'false');
+n.addEventListener('mouseenter', function () { select(id); });
+n.addEventListener('focus', function () { select(id); });
+n.addEventListener('click', function () { select(id); });
+n.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(id); } });
+});
+});
+safe('cursor', function () {
+if (!fine || reduce) return;
+var c = $('.cursor'), label = $('.cursor__label', c);
+doc.classList.add('has-cursor');
+var x = -100, y = -100, cx = -100, cy = -100, shown = false;
+var hoverSel = 'a, button, [role="button"], [role="tab"], [role="radio"], .tile, .stat, .env, .person__card, .vs__table tbody tr, label, input[type="range"], summary';
+window.addEventListener('mousemove', function (e) {
+x = e.clientX; y = e.clientY;
+if (!shown) { cx = x; cy = y; shown = true; c.classList.remove('is-gone'); }
+var el = e.target;
+var text = el.closest && el.closest('input:not([type="range"]):not([type="radio"]), textarea, select');
+var lab = el.closest && el.closest('[data-cursor]');
+var hov = el.closest && el.closest(hoverSel);
+c.classList.toggle('is-text', !!text);
+c.classList.toggle('is-label', !!lab && !text);
+c.classList.toggle('is-hover', !!hov && !lab && !text);
+label.textContent = lab ? lab.getAttribute('data-cursor') : '';
+}, { passive: true });
+document.addEventListener('mouseleave', function () { c.classList.add('is-gone'); shown = false; });
+(function loop() {
+cx += (x - cx) * 0.18;
+cy += (y - cy) * 0.18;
+c.style.transform = 'translate3d(' + cx.toFixed(1) + 'px,' + cy.toFixed(1) + 'px,0)';
+requestAnimationFrame(loop);
+})();
+});
+safe('magnet', function () {
+if (!fine || reduce) return;
+$$('[data-magnet]').forEach(function (b) {
+b.addEventListener('mousemove', function (e) {
+var r = b.getBoundingClientRect();
+var dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2);
+b.style.transform = 'translate(' + (dx * 0.22).toFixed(1) + 'px,' + (dy * 0.3).toFixed(1) + 'px)';
+});
+b.addEventListener('mouseleave', function () { b.style.transform = ''; });
+});
+});
+safe('spot', function () {
+if (!fine) return;
+$$('.spot, .tile, .env, .post > a').forEach(function (el) {
+el.addEventListener('mousemove', function (e) {
+var r = el.getBoundingClientRect();
+el.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+el.style.setProperty('--my', (e.clientY - r.top) + 'px');
+});
+});
+});
+var revealHooks = [];
+safe('reveal', function () {
+var items = $$('.rv');
+items.forEach(function (el) {
+var sibs = $$(':scope > .rv', el.parentNode);
+var i = sibs.indexOf(el);
+if (i > 0) el.style.setProperty('--d', Math.min(i, 5) * 0.08 + 's');
+});
+if (reduce) { items.forEach(function (el) { el.classList.add('is-in'); }); return; }
+doc.classList.add('rv-on');
+function check() {
+var line = window.innerHeight * 0.9;
+items = items.filter(function (el) {
+if (el.getBoundingClientRect().top < line) {
+el.classList.add('is-in');
+revealHooks.forEach(function (h) { h(el); });
+return false;
+}
+return true;
+});
+}
+onScroll(check);
+window.addEventListener('hashchange', function () { setTimeout(check, 60); });
+setTimeout(check, 300);
+});
+function whenRevealed(el, fn) {
+if (!el) return;
+if (reduce || !doc.classList.contains('rv-on')) { fn(); return; }
+var done = false;
+revealHooks.push(function (x) { if (!done && (x === el || x.contains(el) || el.contains(x))) { done = true; fn(); } });
+}
+safe('console', function () {
+var box = $('[data-console]');
+if (reduce) return;
+var lines = $$('.cl', box);
+box.classList.add('is-anim');
+var timers = [];
+function run() {
+timers.forEach(clearTimeout); timers = [];
+lines.forEach(function (l) { l.classList.remove('is-show'); });
+lines.forEach(function (l, i) { timers.push(setTimeout(function () { l.classList.add('is-show'); }, 400 + i * 1100)); });
+timers.push(setTimeout(run, 400 + lines.length * 1100 + 4200));
+}
+var started = false;
+if ('IntersectionObserver' in window) {
+new IntersectionObserver(function (es) {
+es.forEach(function (e) {
+if (e.isIntersecting && !started) { started = true; run(); }
+else if (!e.isIntersecting && started) { started = false; timers.forEach(clearTimeout); lines.forEach(function (l) { l.classList.add('is-show'); }); }
+});
+}, { threshold: 0.3 }).observe(box);
+} else { lines.forEach(function (l) { l.classList.add('is-show'); }); }
+});
+safe('beforeafter', function () {
+var ba = $('[data-ba]');
+var cap = $('[data-ba-cap]');
+var caps = { before: 'Four tools, four logins and four versions of the truth.', after: 'One console, one shared view of state.' };
+$$('[data-ba-set]', ba).forEach(function (b) {
+b.addEventListener('click', function () {
+var s = b.getAttribute('data-ba-set');
+ba.setAttribute('data-state', s);
+$$('[data-ba-set]', ba).forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+cap.textContent = caps[s];
+});
+});
+});
+function tabs(list, opts) {
+var btns = $$('[role="tab"]', list);
+function select(b, focus) {
+btns.forEach(function (x) {
+var on = x === b;
+x.setAttribute('aria-selected', on ? 'true' : 'false');
+x.tabIndex = on ? 0 : -1;
+var p = document.getElementById(x.getAttribute('aria-controls'));
+if (p) p.hidden = !on;
+});
+if (focus) b.focus();
+}
+btns.forEach(function (b, i) {
+b.addEventListener('click', function () { select(b); });
+if (opts && opts.hover && fine) b.addEventListener('mouseenter', function () { select(b); });
+b.addEventListener('keydown', function (e) {
+var keys = opts && opts.vertical ? ['ArrowUp', 'ArrowDown'] : ['ArrowLeft', 'ArrowRight'];
+var j = null;
+if (e.key === keys[1] || (opts && opts.vertical && e.key === 'ArrowRight')) j = (i + 1) % btns.length;
+else if (e.key === keys[0] || (opts && opts.vertical && e.key === 'ArrowLeft')) j = (i - 1 + btns.length) % btns.length;
+else if (e.key === 'Home') j = 0;
+else if (e.key === 'End') j = btns.length - 1;
+if (j !== null) { e.preventDefault(); select(btns[j], true); }
+});
+});
+return { select: select, btns: btns };
+}
+var explorer = null;
+safe('explorer', function () {
+explorer = tabs($('.xp__list'), { vertical: true });
+$$('[data-explore]').forEach(function (b) {
+b.addEventListener('click', function () {
+var t = $('.xp__tab[data-tab="' + b.getAttribute('data-explore') + '"]');
+if (t) { explorer.select(t); jumpTo($('#platform')); setTimeout(function () { t.focus({ preventScroll: true }); }, reduce ? 0 : 700); }
+});
+});
+});
+safe('why', function () {
+var arch = $('[data-arch]');
+var steps = $$('.step');
+onScroll(function () {
+var mid = window.innerHeight * 0.5, best = steps[0];
+steps.forEach(function (s) { if (s.getBoundingClientRect().top < mid) best = s; });
+steps.forEach(function (s) { s.classList.toggle('is-active', s === best); });
+arch.setAttribute('data-active', best.getAttribute('data-step'));
+});
+});
+function centreIn(el, root) {
+var x = 0, y = 0, n = el;
+while (n && n !== root) { x += n.offsetLeft; y += n.offsetTop; n = n.offsetParent; }
+return { x: x + el.offsetWidth / 2, y: y + el.offsetHeight / 2 };
+}
+function placeBar(el, a, b, t) {
+var dx = b.x - a.x, dy = b.y - a.y, s = el.style;
+if (Math.abs(dy) < 2 && Math.abs(dx) >= 2) {
+el.setAttribute('data-axis', 'x'); s.display = '';
+s.left = Math.min(a.x, b.x) + 'px'; s.top = (a.y - t / 2) + 'px'; s.width = Math.abs(dx) + 'px'; s.height = t + 'px';
+} else if (Math.abs(dx) < 2 && Math.abs(dy) >= 2) {
+el.setAttribute('data-axis', 'y'); s.display = '';
+s.left = (a.x - t / 2) + 'px'; s.top = Math.min(a.y, b.y) + 'px'; s.width = t + 'px'; s.height = Math.abs(dy) + 'px';
+} else { s.display = 'none'; }
+}
+safe('roadmap', function () {
+var tl = $('[data-tl]');
+var stages = $$('.tl__stage', tl);
+var dots = stages.map(function (s) { return $('.tl__dot', s); });
+var rail = $('.tl__seg--rail', tl), live = $('.tl__seg--live', tl), dev = $('.tl__seg--dev', tl);
+var ind = $('.tl__ind', tl);
+var cur = 0;
+function layout() {
+var c = dots.map(function (d) { return centreIn(d, tl); });
+var mid = { x: (c[0].x + c[1].x) / 2, y: (c[0].y + c[1].y) / 2 };
+placeBar(rail, c[0], c[4], 4);
+placeBar(live, c[0], mid, 4);
+placeBar(dev, mid, c[1], 4);
+moveInd();
+}
+function moveInd() {
+var s = stages[cur];
+ind.style.setProperty('--ix', (s.offsetLeft + s.offsetWidth / 2 - ind.offsetWidth / 2) + 'px');
+ind.setAttribute('data-status', s.getAttribute('data-status'));
+}
+function select(i, focus) {
+cur = i;
+stages.forEach(function (s, j) {
+var on = j === i;
+s.setAttribute('aria-selected', on ? 'true' : 'false');
+s.tabIndex = on ? 0 : -1;
+document.getElementById(s.getAttribute('aria-controls')).classList.toggle('is-active', on);
+});
+moveInd();
+if (focus) stages[i].focus();
+}
+stages.forEach(function (s, i) {
+s.addEventListener('click', function () { select(i); });
+if (fine) s.addEventListener('mouseenter', function () { select(i); });
+s.addEventListener('keydown', function (e) {
+var j = null;
+if (e.key === 'ArrowRight' || e.key === 'ArrowDown') j = (i + 1) % stages.length;
+else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') j = (i - 1 + stages.length) % stages.length;
+else if (e.key === 'Home') j = 0;
+else if (e.key === 'End') j = stages.length - 1;
+if (j !== null) { e.preventDefault(); select(j, true); }
+});
+});
+layout();
+window.addEventListener('resize', layout);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
+setTimeout(layout, 500);
+var bg = $('[data-parallax]');
+if (reduce || !bg) return;
+var sec = $('#roadmap');
+onScroll(function () {
+var r = sec.getBoundingClientRect();
+if (r.bottom < 0 || r.top > window.innerHeight) return;
+var py = Math.max(-28, Math.min(28, (r.top - window.innerHeight / 2) * -0.05));
+bg.style.setProperty('--py', py.toFixed(1) + 'px');
+});
+});
+safe('envs', function () {
+var envs = $$('[data-env]');
+function open(env) {
+envs.forEach(function (e) {
+var on = e === env;
+e.classList.toggle('is-open', on);
+$('.env__tab', e).setAttribute('aria-expanded', on ? 'true' : 'false');
+$('.env__body', e).hidden = !on;
+});
+}
+envs.forEach(function (env, i) {
+var tab = $('.env__tab', env);
+tab.addEventListener('click', function () { open(env); });
+if (fine) env.addEventListener('mouseenter', function () { open(env); });
+tab.addEventListener('keydown', function (e) {
+var j = null;
+if (e.key === 'ArrowRight' || e.key === 'ArrowDown') j = (i + 1) % envs.length;
+if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') j = (i - 1 + envs.length) % envs.length;
+if (j !== null) { e.preventDefault(); open(envs[j]); $('.env__tab', envs[j]).focus(); }
+});
+});
+});
+safe('pick', function () {
+var opts = $$('[data-pick]');
+function choose(o, focus) {
+opts.forEach(function (x) { var on = x === o; x.setAttribute('aria-checked', on ? 'true' : 'false'); x.tabIndex = on ? 0 : -1; });
+$$('[data-plan]').forEach(function (p) { p.hidden = p.getAttribute('data-plan') !== o.getAttribute('data-pick'); });
+if (focus) o.focus();
+}
+opts.forEach(function (o, i) {
+o.addEventListener('click', function () { choose(o); });
+o.addEventListener('keydown', function (e) {
+var j = null;
+if (e.key === 'ArrowRight' || e.key === 'ArrowDown') j = (i + 1) % opts.length;
+if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') j = (i - 1 + opts.length) % opts.length;
+if (j !== null) { e.preventDefault(); choose(opts[j], true); }
+});
+});
+});
+safe('vs', function () {
+var k = $('[data-take-k]'), t = $('[data-take-t]');
+var rows = $$('.vs__table tbody tr');
+function show(r) {
+rows.forEach(function (x) { x.classList.toggle('is-on', x === r); });
+k.textContent = $('th', r).textContent;
+t.textContent = r.getAttribute('data-take');
+}
+rows.forEach(function (r) {
+r.addEventListener('mouseenter', function () { show(r); });
+r.addEventListener('focus', function () { show(r); });
+r.addEventListener('click', function () { show(r); });
+});
+});
+var calcState = null;
+safe('calculator', function () {
+var form = $('[data-calc]');
+var inputs = {};
+$$('[data-in]', form).forEach(function (i) { inputs[i.getAttribute('data-in')] = i; });
+inputs.gain.value = CALC.DENSITY_GAIN_DEFAULT;
+var outs = {};
+$$('[data-out]', form).forEach(function (o) { outs[o.getAttribute('data-out')] = o; });
+var kpi = {};
+$$('[data-kpi]').forEach(function (k) { kpi[k.getAttribute('data-kpi')] = { el: k, cur: 0 }; });
+var rowB = $('[data-rack="before"]'), rowA = $('[data-rack="after"]');
+var fmt = { servers: num.format, vms: num.format, lic: money.format, pwr: money.format, gain: function (v) { return v + '%'; } };
+function tween(key, to, isMoney) {
+var k = kpi[key];
+var from = k.cur, start = null, dur = reduce ? 0 : 450;
+k.cur = to;
+var show = function (v) { k.el.textContent = isMoney ? money.format(Math.round(v)) : num.format(Math.round(v)); };
+if (!dur) { show(to); return; }
+function step(ts) {
+if (start === null) start = ts;
+var p = Math.min(1, (ts - start) / dur), e = 1 - Math.pow(1 - p, 3);
+show(from + (to - from) * e);
+if (p < 1) requestAnimationFrame(step);
+}
+requestAnimationFrame(step);
+setTimeout(function () { show(to); }, dur + 80); // backup when rAF is throttled
+}
+function rack(row, total, on, per) {
+var n = Math.ceil(total / per), lit = Math.ceil(on / per);
+if (row.children.length !== n) row.innerHTML = new Array(n + 1).join('<i></i>');
+$$('i', row).forEach(function (el, idx) { el.classList.toggle('is-off', idx >= lit); });
+}
+function calc() {
+var v = {};
+Object.keys(inputs).forEach(function (key) {
+var i = inputs[key];
+v[key] = +i.value;
+outs[key].textContent = fmt[key](v[key]);
+i.style.setProperty('--fill', ((i.value - i.min) / (i.max - i.min) * 100) + '%');
+});
+var after = Math.ceil(v.servers / (1 + v.gain / 100));
+var retire = v.servers - after;
+var hw = retire * (v.pwr + CALC.HARDWARE_PER_SERVER_PER_YEAR);
+var lic = v.servers * v.lic * CALC.LICENSING_SHARE_REMOVED;
+var total = (hw + lic) * CALC.YEARS;
+tween('retire', retire); tween('hw', hw, true); tween('lic', lic, true); tween('total', total, true);
+var per = Math.max(1, Math.ceil(v.servers / CALC.RACK_MAX_ICONS));
+rack(rowB, v.servers, v.servers, per);
+rack(rowA, v.servers, after, per);
+$('[data-rack-before]').textContent = num.format(v.servers) + ' servers' + (per > 1 ? ' (1 block = ' + per + ')' : '');
+$('[data-rack-after]').textContent = num.format(after) + ' servers';
+calcState = { v: v, after: after, retire: retire, hw: hw, lic: lic, total: total };
+}
+form.addEventListener('input', calc);
+calc();
+});
+var quizState = { score: 0, answered: 0, gaps: [] };
+safe('quiz', function () {
+var quiz = $('[data-quiz]');
+var bands = [
+[0, 2, 'Early days', 'Start with a workload inventory and your renewal date. Everything else depends on those two.'],
+[3, 4, 'Good footing', 'Close the gaps you answered "no" to before you set a migration date.'],
+[5, 6, 'Ready to plan a pilot', 'A phased move is the sensible next step. A pilot on your own hardware will show what to expect.']
+];
+var ring = $('.score__bar').parentNode;
+function update() {
+var score = 0, answered = 0, gaps = [];
+$$('li', quiz).forEach(function (li) {
+var c = $('input:checked', li);
+if (c) { answered++; if (c.value === '1') score++; else gaps.push($('legend', li).textContent); }
+});
+quizState = { score: score, answered: answered, gaps: gaps };
+$('[data-score]').textContent = score;
+ring.style.setProperty('--s', 100 - (score / 6) * 100);
+if (!answered) { $('[data-score-h]').textContent = 'Answer the questions to see where you stand.'; $('[data-score-t]').textContent = ''; return; }
+var b = bands.filter(function (x) { return score >= x[0] && score <= x[1]; })[0];
+$('[data-score-h]').textContent = b[2] + (answered < 6 ? ' so far' : '');
+$('[data-score-t]').textContent = b[3];
+}
+quiz.addEventListener('change', update);
+$('[data-quiz-reset]').addEventListener('click', function () { $$('input', quiz).forEach(function (i) { i.checked = false; }); update(); $('input', quiz).focus(); });
+update();
+});
+safe('cell', function () {
+$$('.stat').forEach(function (s) {
+whenRevealed(s, function () {
+if (reduce) return;
+setTimeout(function () { s.classList.add('is-play'); }, 500);
+setTimeout(function () { s.classList.remove('is-play'); }, 2900);
+});
+});
+});
+safe('rollout', function () {
+var wrap = $('[data-steps]');
+var steps = $$('.rs', wrap);
+var circles = steps.map(function (s) { return $('.rs__n', s); });
+var segs = $$('.steps__seg', wrap);
+function layout() {
+var c = circles.map(function (n) { return centreIn(n, wrap); });
+segs.forEach(function (s, i) { placeBar(s, c[i], c[i + 1], 2); });
+}
+function draw() {
+var p = 1;
+if (!reduce) {
+var r = wrap.getBoundingClientRect(), vh = window.innerHeight;
+p = Math.max(0, Math.min(1, (vh * 0.85 - r.top) / (vh * 0.5)));
+}
+var total = p * segs.length;
+segs.forEach(function (s, i) { s.style.setProperty('--d', Math.max(0, Math.min(1, total - i)).toFixed(3)); });
+steps.forEach(function (st, k) { st.classList.toggle('is-reached', p > 0.02 && total >= k - 0.001); });
+}
+steps.forEach(function (st, k) {
+if (!k) return;
+st.addEventListener('mouseenter', function () { segs[k - 1].classList.add('is-hot'); });
+st.addEventListener('mouseleave', function () { segs[k - 1].classList.remove('is-hot'); });
+});
+layout();
+window.addEventListener('resize', layout);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(layout);
+onScroll(draw);
+});
+var formApi = { prefill: function () {} };
+safe('form', function () {
+var form = $('#contact-form');
+var done = $('#form-done');
+var mode = form.getAttribute('data-mode');
+var msg = $('#f-message');
+var rules = {
+name: function (v) { return v.length >= 2 ? '' : 'Add your name so we know who to reply to.'; },
+email: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) ? '' : 'That email doesn\'t look right. Try something like jane@company.com.'; },
+message: function (v) { return v.length >= 10 ? '' : 'Tell us a little more. One or two sentences is plenty.'; }
+};
+function check(name) {
+var el = form.elements[name], m = rules[name](el.value.trim()), wrap = el.closest('.fl');
+wrap.classList.toggle('is-bad', !!m);
+wrap.classList.toggle('is-ok', !m && !!el.value.trim());
+el.setAttribute('aria-invalid', m ? 'true' : 'false');
+$('#e-' + name).textContent = m;
+return !m;
+}
+Object.keys(rules).forEach(function (n) {
+var el = form.elements[n];
+el.addEventListener('blur', function () { if (el.value.trim() || el.closest('.fl').classList.contains('is-bad')) check(n); });
+el.addEventListener('input', function () { if (el.closest('.fl').classList.contains('is-bad')) check(n); });
+});
+var lastPrefill = '';
+formApi.prefill = function (text) {
+if (!msg.value.trim() || msg.value === lastPrefill) { msg.value = text; lastPrefill = text; }
+};
+form.addEventListener('submit', function (e) {
+var bad = Object.keys(rules).filter(function (n) { return !check(n); });
+if (bad.length) { e.preventDefault(); form.elements[bad[0]].focus(); return; }
+if (form.elements.website && form.elements.website.value) { e.preventDefault(); return; }
+var btn = $('[type="submit"]', form);
+if (mode === 'wp') { btn.disabled = true; $('span', btn).textContent = 'Sending…'; return; }
+e.preventDefault();
+var v = function (n) { return (form.elements[n].value || '').trim(); };
+var body = ['Name: ' + v('name'), 'Email: ' + v('email'), 'Company: ' + (v('company') || 'Not given'), 'Environment: ' + (v('environment') || 'Not given'), '', v('message')].join('\n');
+var to = (form.getAttribute('action') || '').replace(/^mailto:/, '');
+window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent('Synaptix enquiry from ' + v('name') + (v('company') ? ', ' + v('company') : '')) + '&body=' + encodeURIComponent(body);
+$('#form-done-title').textContent = 'Thanks, ' + v('name').split(' ')[0] + '.';
+$('#form-done-text').textContent = 'Your email app should open with your message filled in. Press send there and the MoirAI team will reply. If nothing opened, write to ' + to + '.';
+form.hidden = true; done.hidden = false; done.focus();
+});
+$('[data-form-reset]').addEventListener('click', function () { done.hidden = true; form.hidden = false; $('#f-name').focus(); });
+var status = $('#form-status');
+if (status && status.textContent.trim()) { status.setAttribute('tabindex', '-1'); setTimeout(function () { status.focus(); }, 300); }
+$$('[data-prefill]').forEach(function (a) { a.addEventListener('click', function () { formApi.prefill(a.getAttribute('data-prefill')); }); });
+var calcCta = $('[data-calc-cta]');
+if (calcCta) calcCta.addEventListener('click', function () {
+if (!calcState) return;
+var s = calcState, v = s.v;
+formApi.prefill([
+'I used the Synaptik Cell calculator and would like a real number for our environment.',
+'Physical servers today: ' + v.servers,
+'Average workloads per server: ' + v.vms,
+'Licensing per server per year: ' + money.format(v.lic),
+'Power and cooling per server per year: ' + money.format(v.pwr),
+'Density gain assumed: ' + v.gain + '%',
+'Estimate shown: ' + s.retire + ' servers retired, ' + money.format(s.total) + ' over ' + CALC.YEARS + ' years.'
+].join('\n'));
+$('#f-env').value = $('#f-env').value || '';
+});
+var quizCta = $('[data-quiz-cta]');
+if (quizCta) quizCta.addEventListener('click', function () {
+if (!quizState.answered) return;
+formApi.prefill('I took the VMware readiness check and scored ' + quizState.score + ' of 6.' + (quizState.gaps.length ? '\nGaps: ' + quizState.gaps.join(' / ') : '') + '\nI would like to talk through a migration plan.');
+});
+$$('a[href="#contact"]').forEach(function (a) {
+a.addEventListener('click', function () { setTimeout(function () { if (!form.hidden) $('#f-name').focus({ preventScroll: true }); }, reduce ? 0 : 800); });
+});
+});
+safe('copy', function () {
+var toast = $('[data-toast]'), timer;
+function say(t) { toast.textContent = t; toast.classList.add('is-on'); clearTimeout(timer); timer = setTimeout(function () { toast.classList.remove('is-on'); }, 2400); }
+$$('[data-copy]').forEach(function (b) {
+var label = $('[data-copy-label]', b);
+b.addEventListener('click', function () {
+var text = b.getAttribute('data-copy');
+var ok = function () { label.textContent = 'Copied'; say('Copied ' + text); setTimeout(function () { label.textContent = 'Copy'; }, 2400); };
+if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(ok, function () { window.location.href = 'mailto:' + text; });
+else window.location.href = 'mailto:' + text;
+});
+});
+});
+safe('team', function () {
+$$('.person__card').forEach(function (card) {
+card.addEventListener('click', function (e) { if (!e.target.closest('a')) card.classList.toggle('is-open'); });
+card.addEventListener('keydown', function (e) { if ((e.key === 'Enter' || e.key === ' ') && e.target === card) { e.preventDefault(); card.classList.toggle('is-open'); } });
+});
+});
+safe('faq', function () {
+var list = $('[data-faq]');
+var items = $$('.qa', list);
+items.forEach(function (qa) {
+var b = $('button', qa), a = $('.qa__a', qa);
+b.addEventListener('click', function () { var open = b.getAttribute('aria-expanded') !== 'true'; b.setAttribute('aria-expanded', open ? 'true' : 'false'); a.hidden = !open; });
+});
+var q = $('[data-faq-q]'), count = $('[data-faq-count]'), empty = $('[data-faq-empty]');
+q.addEventListener('input', function () {
+var term = q.value.trim().toLowerCase(), shown = 0;
+items.forEach(function (qa) {
+var hit = !term || qa.textContent.toLowerCase().indexOf(term) !== -1;
+qa.hidden = !hit;
+if (hit) shown++;
+});
+empty.hidden = shown > 0;
+count.textContent = term ? shown + ' of ' + items.length + ' questions' : items.length + ' questions';
+});
+});
+safe('drag', function () {
+var el = $('[data-drag]');
+var down = false, moved = false, sx = 0, sl = 0;
+el.addEventListener('pointerdown', function (e) {
+if (e.pointerType !== 'mouse') return; // touch scrolls natively
+down = true; moved = false; sx = e.clientX; sl = el.scrollLeft;
+});
+window.addEventListener('pointermove', function (e) {
+if (!down) return;
+var dx = e.clientX - sx;
+if (Math.abs(dx) > 5) { moved = true; el.classList.add('is-dragging'); }
+el.scrollLeft = sl - dx;
+});
+window.addEventListener('pointerup', function () { down = false; setTimeout(function () { el.classList.remove('is-dragging'); }, 0); });
+el.addEventListener('click', function (e) { if (moved) { e.preventDefault(); moved = false; } }, true);
+el.addEventListener('keydown', function (e) {
+if (e.target !== el) return;
+if (e.key === 'ArrowRight') { e.preventDefault(); el.scrollBy({ left: 320, behavior: reduce ? 'auto' : 'smooth' }); }
+if (e.key === 'ArrowLeft') { e.preventDefault(); el.scrollBy({ left: -320, behavior: reduce ? 'auto' : 'smooth' }); }
+});
+});
+safe('net', function () {
+var cv = $('[data-net]');
+var ctx = cv.getContext('2d');
+var dpr = Math.min(window.devicePixelRatio || 1, 2);
+var pts = [], W = 0, H = 0, running = false;
+function size() {
+var r = cv.getBoundingClientRect();
+W = r.width; H = r.height;
+cv.width = W * dpr; cv.height = H * dpr;
+ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+var n = Math.round(Math.min(60, W * H / 14000));
+pts = [];
+for (var i = 0; i < n; i++) pts.push({ x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - 0.5) * 0.25, vy: (Math.random() - 0.5) * 0.25 });
+}
+function draw() {
+ctx.clearRect(0, 0, W, H);
+ctx.strokeStyle = 'rgba(255,255,255,0.045)';
+ctx.lineWidth = 1;
+for (var gx = 0; gx < W; gx += 48) { ctx.beginPath(); ctx.moveTo(gx, 0); ctx.lineTo(gx, H); ctx.stroke(); }
+for (var gy = 0; gy < H; gy += 48) { ctx.beginPath(); ctx.moveTo(0, gy); ctx.lineTo(W, gy); ctx.stroke(); }
+for (var i = 0; i < pts.length; i++) {
+var p = pts[i];
+for (var j = i + 1; j < pts.length; j++) {
+var q = pts[j], dx = p.x - q.x, dy = p.y - q.y, d = dx * dx + dy * dy;
+if (d < 16000) { ctx.strokeStyle = 'rgba(82,208,226,' + (0.22 * (1 - d / 16000)).toFixed(3) + ')'; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); }
+}
+}
+ctx.fillStyle = 'rgba(82,208,226,0.75)';
+pts.forEach(function (p) { ctx.beginPath(); ctx.arc(p.x, p.y, 1.8, 0, 6.283); ctx.fill(); });
+}
+function tick() {
+if (!running) return;
+pts.forEach(function (p) { p.x += p.vx; p.y += p.vy; if (p.x < 0 || p.x > W) p.vx *= -1; if (p.y < 0 || p.y > H) p.vy *= -1; });
+draw();
+requestAnimationFrame(tick);
+}
+size(); draw();
+window.addEventListener('resize', function () { size(); draw(); });
+if (reduce || !('IntersectionObserver' in window)) return;
+new IntersectionObserver(function (es) {
+es.forEach(function (e) { var was = running; running = e.isIntersecting; if (running && !was) tick(); });
+}).observe(cv);
+});
+safe('totop', function () {
+var btn = $('[data-totop]');
+var hero = $('#top');
+var hd = $('#hd');
+var bar = $('.hd__progress span');
+var main = $('#main');
+onScroll(function () {
+if (jumping) return;
+var max = doc.scrollHeight - window.innerHeight;
+btn.classList.toggle('is-on', window.scrollY > hero.offsetHeight * 0.8);
+btn.style.setProperty('--p', String(100 - (max > 0 ? window.scrollY / max : 0) * 100));
+});
+function jumpTop(e) {
+e.preventDefault();
+jumping = true;
+hd.classList.add('no-anim');
+hd.classList.remove('is-compact');
+bar.style.setProperty('--p', 0);
+var prev = doc.style.scrollBehavior;
+doc.style.scrollBehavior = 'auto';
+try { window.scrollTo({ top: 0, left: 0, behavior: 'instant' }); }
+catch (err) { window.scrollTo(0, 0); } // Safari before 15.4 rejects 'instant'
+doc.style.scrollBehavior = prev;
+btn.classList.remove('is-on');
+btn.style.setProperty('--p', '100');
+main.focus({ preventScroll: true });
+setTimeout(function () {
+hd.classList.remove('no-anim');
+jumping = false;
+requestScrollWork();
+}, 150);
+}
+$$('[data-to-top]').forEach(function (el) { el.addEventListener('click', jumpTop); });
+});
+safe('year', function () { $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); }); });
+})();
+</script>
+</body>
+</html>
